@@ -281,6 +281,12 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 <!-- END CYANOGENMOD -->
 
+
+<!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+<!-- END CMSDK SAMPLES -->
+
 <!-- BEGIN AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
