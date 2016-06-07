@@ -11,7 +11,11 @@ To initialize your local repository using the basic CyanogenMod trees, use a com
 
     repo init -u git://github.com/JDCTeam/manifests.git -b cm-13.0
     
-Then add our local manifest:
+Then add our local manifest(regular one):
+
+    git clone git://github.com/JDCTeam/local_manifests.git -b opt-cm-13.0 .repo/local_manifests
+    
+Or use our experimental CAF-based manifest:
 
     git clone git://github.com/JDCTeam/local_manifests.git -b opt-cm-13.0-caf .repo/local_manifests
     
