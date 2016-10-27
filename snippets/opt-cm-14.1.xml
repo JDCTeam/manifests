@@ -60,6 +60,8 @@
   <project path="kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
   <project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="opt-cm-14.1" />
   <project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-14.1" />
+  
   
    <!--Toolchains-->
     <!--Stock kernel-->
