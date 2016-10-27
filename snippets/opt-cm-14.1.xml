@@ -44,6 +44,9 @@
   
   <!--Custom projects-->
   
+  <!--Aroma-->
+  <project path="aroma" name="dkati/Optimized-AromaInstaller" remote="github" revision="opt-cm-14.1" />
+  
   <!--Hardware-->
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
   
@@ -61,7 +64,6 @@
   <project path="kernel/samsung/alucard24" name="dkati/Alucard-Kernel-jfltexx" remote="github" revision="opt-cm-14.1" />
   <project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-14.1" />
-  
   
    <!--Toolchains-->
     <!--Stock kernel-->
@@ -81,10 +83,5 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  
-  <!--Missing repos to be merged-->
-    <!--alu kernel + ramdisk + TC-->
-    <!--hardware samsung?-->
-    <!--aroma installer-->
 
 </manifest>
