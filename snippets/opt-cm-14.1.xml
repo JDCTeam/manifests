@@ -30,11 +30,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-14.1" />
-  
-  <!--Policy-->
-  <remove-project name="CyanogenMod/android_system_sepolicy" path="system/sepolicy" />
-  <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-14.1" />
-  
+ 
   <!--Packages-->
   <remove-project name="CyanogenMod/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
