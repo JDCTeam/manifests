@@ -14,7 +14,7 @@ To initialize our local repository using the basic CyanogenMod trees and CAF edi
 
 Then add our local manifest (CAF powered):
 
-    git clone git://github.com/JDCTeam/local_manifests.git -b opt-cm-13.0-caf .repo/local_manifests
+    git clone git://github.com/JDCTeam/local_manifests.git -b opt-cm-13.0 .repo/local_manifests
     
 This will transform the basic CyanogenMod to the Optimized version.
 
