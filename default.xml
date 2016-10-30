@@ -492,5 +492,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/aicp.xml" />
-
+  <include name="snippets/jdc_aicp.xml" />
 </manifest>
