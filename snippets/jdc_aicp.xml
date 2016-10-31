@@ -17,7 +17,7 @@
     <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
 
  <!--Vendors-->
-    <project path="vendor/aosp" name="JDCTeam/android_vendor_aosp" remote="github" revision="aicp-7.1" />
+    <project path="vendor/aosp" name="JDCTeam/platform_vendor_aosp" remote="github" revision="aicp-7.1" />
 
 
 </manifest>
