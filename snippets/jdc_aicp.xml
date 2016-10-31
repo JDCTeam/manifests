@@ -14,5 +14,8 @@
  <!--Hardware-->
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
 
+ <!--Proprietary blobs-->
+    <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
+
 
 </manifest>
