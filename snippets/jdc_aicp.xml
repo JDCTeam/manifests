@@ -4,7 +4,6 @@
 
   <!--Device tree-->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
-    <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-14.1" />
     <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
     <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="aicp-7.1" />
  
@@ -16,6 +15,9 @@
 
  <!--Proprietary blobs-->
     <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
+
+ <!--Vendors-->
+    <project path="vendor/aosp" name="JDCTeam/android_vendor_aosp" remote="github" revision="aicp-7.1" />
 
 
 </manifest>
