@@ -42,6 +42,10 @@
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   
+  <!--Policy-->
+  <remove-project name="CyanogenMod/android_system_sepolicy" path="system/sepolicy" />
+  <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-14.1" />
+  
   
   <!--Custom projects-->
   
