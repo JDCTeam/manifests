@@ -39,6 +39,9 @@
   
   <!--Custom projects-->
   
+  <!--JDCSettings app-->
+  <project path="packages/apps/JDCSettings" name="JDCTeam/android_packages_apps_JDCSettings" remote="github" revision="opt-cm-14.1" />
+  
   <!--Aroma-->
   <project path="aroma" name="dkati/Optimized-AromaInstaller" remote="github" revision="opt-cm-14.1" />
   
