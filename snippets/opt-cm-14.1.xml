@@ -78,10 +78,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" path="packages/apps/AudioFX" />
   <project path="packages/apps/MusicFX" name="ResurrectionRemix/packages_apps_MusicFX" remote="github" revision="nougat" />
   
-  <!--CM Parts-->
-  <remove-project name="CyanogenMod/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
-  <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
-  
   <!--Needed for complete build dir -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
