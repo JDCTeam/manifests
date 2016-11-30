@@ -73,11 +73,7 @@
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
       <copyfile src="build.sh" dest="build.sh" />
   </project>
-  
-  <!--MusicFX -->
-  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" path="packages/apps/AudioFX" />
-  <project path="packages/apps/MusicFX" name="ResurrectionRemix/packages_apps_MusicFX" remote="github" revision="nougat" />
-  
+
   <!--Needed for complete build dir -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
