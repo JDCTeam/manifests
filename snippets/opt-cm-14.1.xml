@@ -34,8 +34,10 @@
   <!--Packages-->
   <remove-project name="CyanogenMod/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" path="packages/services/Telephony" />
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   
   <!--Custom projects-->
   
