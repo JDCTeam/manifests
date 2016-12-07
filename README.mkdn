@@ -13,3 +13,17 @@ Then to sync up:
 
     repo sync
 
+Building
+---------------
+
+Navigate to the path where source code is stored, then run:
+
+    . build/envsetup.sh
+        lunch cm_jflte-userdebug
+            make -j# otapackage
+            
+Where # is the number of your CPU cores
+
+Alternatively, you can use our [custom build script](https://github.com/JDCTeam/android_vendor_jdc/blob/opt-cm-14.1/build.sh):
+
+    . build.sh
