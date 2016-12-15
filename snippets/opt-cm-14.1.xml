@@ -11,12 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
  
-  <!--Vendors-->
-  <remove-project name="CyanogenMod/cm_platform_sdk" path="vendor/cmsdk" />
-  <remove-project name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
-  <project path="vendor/cmsdk" name="JDCTeam/cm_platform_sdk" remote="github" revision="opt-cm-14.1" />
-  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
- 
+  
   <!--Core-->
   <remove-project name="CyanogenMod/android_system_core" path="system/core" />
   <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.1" />
@@ -75,7 +70,11 @@
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
   
   
-   <!-- Vendors -->
+  <!--Vendors-->
+  <remove-project name="CyanogenMod/cm_platform_sdk" path="vendor/cmsdk" />
+  <remove-project name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
+  <project path="vendor/cmsdk" name="JDCTeam/cm_platform_sdk" remote="github" revision="opt-cm-14.1" />
+  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
