@@ -46,7 +46,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
-  <project path="external/chromium-webview" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
