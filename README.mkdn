@@ -1,11 +1,12 @@
 
-Optimized CyanogenMod 14.1 for jflte
+Optimized Lineage 14.1 for jflte
 ---------------
+(ex. Optimized Cyanogenmod builds)
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using our trees, use a command like this:
 
     repo init -u git://github.com/JDCTeam/manifests.git -b opt-cm-14.1
 
