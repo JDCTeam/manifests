@@ -6,37 +6,37 @@
   <!--Forked projects-->
   
   <!--Build-->
-  <remove-project name="CyanogenMod/android_build" path="build" />
+  <remove-project name="LineageOS/android_build" path="build" />
   <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
  
   
   <!--Core-->
-  <remove-project name="CyanogenMod/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_system_core" path="system/core" />
   <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.1" />
   
   <!--Base-->
-  <remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
+  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
  
   <!--Telephony-->
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
-  <remove-project name="CyanogenMod/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-14.1" />
  
   <!--Packages-->
-  <remove-project name="CyanogenMod/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <remove-project name="CyanogenMod/android_packages_services_Telephony" path="packages/services/Telephony" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
-  <remove-project name="CyanogenMod/android_packages_apps_Snap" path="packages/apps/Snap" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <remove-project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
+  <remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-14.1-wip"/>
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1-wip"/>
   <!--Custom projects-->
   
   <!--JDCSettings app-->
@@ -46,12 +46,12 @@
   <project path="aroma" name="dkati/Optimized-AromaInstaller" remote="github" revision="opt-cm-14.1" />
   
   <!--Hardware-->
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
   
   <!--Device tree-->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-14.1" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
   <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-14.1" />
 
   <!--Stock kernel-->
@@ -71,8 +71,8 @@
   
   
   <!--Vendors-->
-  <remove-project name="CyanogenMod/cm_platform_sdk" path="vendor/cmsdk" />
-  <remove-project name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
+  <remove-project name="LineageOS/cm_platform_sdk" path="vendor/cmsdk" />
+  <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cmsdk" name="JDCTeam/cm_platform_sdk" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
@@ -83,7 +83,7 @@
 
   <!--Needed for complete build dir -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
+  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
