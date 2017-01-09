@@ -39,6 +39,9 @@
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1-wip"/>
   <!--Custom projects-->
   
+  <!--stlport-->
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1"/>
+  
   <!--JDCSettings app-->
   <project path="packages/apps/JDCSettings" name="JDCTeam/android_packages_apps_JDCSettings" remote="github" revision="opt-cm-14.1" />
   
