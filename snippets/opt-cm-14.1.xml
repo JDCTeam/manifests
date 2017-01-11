@@ -38,13 +38,10 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
-  <remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1-wip"/>
-  <!--Custom projects-->
   
   <!--stlport-->
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1"/>
