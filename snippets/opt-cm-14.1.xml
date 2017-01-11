@@ -11,6 +11,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
  
+  <!--Frameworks Native-->
+  <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+  <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-14.1" />
   
   <!--Core-->
   <remove-project name="LineageOS/android_system_core" path="system/core" />
