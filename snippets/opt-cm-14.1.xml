@@ -11,11 +11,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
  
-  <!--Frameworks Native-->
+  <!--Policy-->
   <remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
   <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-14.1" />
   
-  <!--Policy-->
+  <!--Frameworks Native-->
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
   <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-14.1" />
   
