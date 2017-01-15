@@ -68,6 +68,8 @@
     <!--ROM-->
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
   
+  <!--Webview-->
+  <project path="external/chromium-webview" name="JDCTeam/platform_external_chromium-webview" remote="github" revision="opt-cm-14.1" />
   
   <!--Vendors-->
   <remove-project name="LineageOS/cm_platform_sdk" path="vendor/cmsdk" />
