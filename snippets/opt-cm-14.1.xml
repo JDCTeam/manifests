@@ -102,7 +102,7 @@
   <project path="packages/apps/Contacts" name="JDCTeam/android_packages_apps_Contacts" remote="github" revision="opt-cm-14.1" />
   
   <remove-project name="LineageOS/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
-  <project path="packages/apps/Contacts" name="JDCTeam/android_packages_apps_ContactsCommon" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/ContactsCommon" name="JDCTeam/android_packages_apps_ContactsCommon" remote="github" revision="opt-cm-14.1" />
   
   <remove-project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="github" revision="opt-cm-14.1" />
