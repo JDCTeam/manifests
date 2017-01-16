@@ -1,7 +1,7 @@
 
 Optimized Lineage 14.1 for jflte
 ---------------
-(ex. Optimized Cyanogenmod builds)
+(ex. Optimized CyanogenMod builds)
 
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
