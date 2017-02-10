@@ -1,13 +1,13 @@
-Optimized CyanogenMod 13 for jflte
+Optimized LineageOS 13 for jflte
 ===========
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/LineageOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize our local repository using the basic CyanogenMod trees and CAF edits, use a command like this :
+To initialize our local repository using the basic LineageOS trees and CAF edits, use a command like this :
 
     repo init -u git://github.com/JDCTeam/manifests.git -b cm-13.0-halaudio
    
@@ -16,7 +16,7 @@ Then add our local manifest (CAF powered):
 
     git clone git://github.com/JDCTeam/local_manifests.git -b opt-cm-13.0 .repo/local_manifests
     
-This will transform the basic CyanogenMod to the Optimized version.
+This will transform the basic LineageOS to the Optimized version.
 
 To sync up:
 
