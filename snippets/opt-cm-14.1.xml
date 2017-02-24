@@ -85,6 +85,7 @@
       <copyfile src="build.sh" dest="build.sh" />
   </project>
   
+  <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="github" revision="7.1" />
 
   <!--OMS implementation-->
   
