@@ -84,7 +84,7 @@
   <remove-project name="LineageOS/cm_platform_sdk" path="vendor/cmsdk" />
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="7.1" />
-  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
+  <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="7.1" />
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
