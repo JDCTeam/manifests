@@ -17,7 +17,7 @@
   
   <!--Base-->
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
+  <project path="frameworks/base" name="dkati/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
  
   <!--Telephony-->
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
@@ -31,10 +31,16 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/Settings" name="dkati/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
   
+  <project path="packages/apps/crDroidSettings" name="dkati/android_packages_apps_crDroidSettings" remote="github" revision="opt-cm-14.1" />
+  <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="github" revision="7.1" />
+  <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="github" revision="7.1" />
+  <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="github" revision="7.1" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="github" revision="7.1" />
+
   <!--stlport-->
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1"/>
   
@@ -85,7 +91,7 @@
       <copyfile src="build.sh" dest="build.sh" />
   </project>
   
-  <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="github" revision="7.1" />
+  
 
   <!--OMS implementation-->
   
