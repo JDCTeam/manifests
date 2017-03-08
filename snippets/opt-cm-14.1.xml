@@ -30,10 +30,13 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/PackageInstaller" name="JDCTeam/android_packages_apps_PackageInstaller" remote="github" revision="opt-cm-14.1" />
+  
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   
   <!--stlport-->
