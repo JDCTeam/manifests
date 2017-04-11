@@ -7,23 +7,23 @@
   
   <!--Build-->
   <remove-project name="LineageOS/android_build" path="build" />
-  <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.1" >
+  <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.1-7.1.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
   
   <!--Core-->
   <remove-project name="LineageOS/android_system_core" path="system/core" />
-  <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.1" />
+  <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <!--Base-->
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
+  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.1-7.1.2" />
  
   <!--Telephony-->
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
-  <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-14.1" />
+  <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1-7.1.2" />
+  <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-14.1-7.1.2" />
  
   <!--Packages-->
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
@@ -32,8 +32,8 @@
   <remove-project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts"/>
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
-  <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1-7.1.2" />
+  <project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1-7.1.2" />
   <project path="packages/apps/CMParts" name="JDCTeam/android_packages_apps_CMParts" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/PackageInstaller" name="JDCTeam/android_packages_apps_PackageInstaller" remote="github" revision="opt-cm-14.1" />
   
@@ -82,7 +82,7 @@
   <remove-project name="LineageOS/cm_platform_sdk" path="vendor/cmsdk" />
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cmsdk" name="JDCTeam/cm_platform_sdk" remote="github" revision="opt-cm-14.1" />
-  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
+  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1-7.1.2" />
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
       <copyfile src="build.sh" dest="build.sh" />
@@ -94,26 +94,26 @@
   <!--Frameworks base is also needed-->
   <!--Policy-->
   <remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
-  <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-14.1" />
+  <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <!--Frameworks Native-->
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
-  <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-14.1" />
+  <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" />
-  <project path="packages/apps/ExactCalculator" name="JDCTeam/android_packages_apps_ExactCalculator" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/ExactCalculator" name="JDCTeam/android_packages_apps_ExactCalculator" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <remove-project name="LineageOS/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" />
-  <project path="packages/apps/PhoneCommon" name="JDCTeam/android_packages_apps_PhoneCommon" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/PhoneCommon" name="JDCTeam/android_packages_apps_PhoneCommon" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <remove-project name="LineageOS/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="JDCTeam/android_packages_apps_Contacts" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/Contacts" name="JDCTeam/android_packages_apps_Contacts" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <remove-project name="LineageOS/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="JDCTeam/android_packages_apps_ContactsCommon" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/ContactsCommon" name="JDCTeam/android_packages_apps_ContactsCommon" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <remove-project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer" />
-  <project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="github" revision="opt-cm-14.1" />
+  <project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="github" revision="opt-cm-14.1-7.1.2" />
   
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   
