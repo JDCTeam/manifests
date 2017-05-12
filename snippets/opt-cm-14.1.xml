@@ -84,7 +84,7 @@
   <project path="vendor/cmsdk" name="JDCTeam/cm_platform_sdk" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.1-optcm" />
-  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
+  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.1-sidecore" >
       <copyfile src="build.sh" dest="build.sh" />
   </project>
   
