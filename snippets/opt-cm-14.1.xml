@@ -56,12 +56,12 @@
   
   <!--Device tree-->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-14.1" />
+  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-14.1-sidecore" />
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
   <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-14.1" />
 
-  <!--Stock kernel-->
-  <project path="kernel/samsung/jf" name="LineageOS/android_kernel_samsung_jf" remote="github" revision="cm-14.1" />
+  <!--Sidecore kernel-->
+  <project path="kernel/samsung/sidecore" name="dkati/SideCore-CM-SGS4" remote="github" revision="cm-14.1" />
   
   <!--Alucard kernel and Ramdisk-->
   <project path="kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
