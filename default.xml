@@ -229,7 +229,7 @@
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" /> 
 
-  <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/master" />
-  <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/mariogrip/7.1" />
+  <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/mariogrip/7.1" />
+  <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/halium-7.1" />
   <project path="halium/audioflingerglue" name="Halium/audioflingerglue" remote="hal" />
 </manifest>
