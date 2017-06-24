@@ -15,6 +15,10 @@
   <remove-project name="LineageOS/android_art" path="art"/>
   <project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-14.1" />
   
+  <!--Bionic-->
+  <remove-project name="LineageOS/android_bionic" path="bionic"/>
+  <project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-14.1" />
+  
   <!--Core-->
   <remove-project name="LineageOS/android_system_core" path="system/core" />
   <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.1" />
