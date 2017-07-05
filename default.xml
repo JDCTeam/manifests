@@ -33,7 +33,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="android_bionic" groups="pdk" remote="los" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="hal" />
   <project path="development" name="android_development" remote="los" />
 
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
