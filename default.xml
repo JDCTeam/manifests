@@ -151,7 +151,7 @@
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="los" />
   <project path="hardware/libhardware" name="Halium/android_hardware_libhardware" groups="pdk" remote="hal" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
+  <project path="hardware/libhardware_legacy" name="Halium/android_hardware_libhardware_legacy" groups="pdk" remote="hal" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
