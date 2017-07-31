@@ -30,10 +30,7 @@
   <!--jemalloc-->
   <remove-project name="LineageOS/android_external_jemalloc" path="external/jemalloc" />
   <project path="external/jemalloc" name="JDCTeam/android_external_jemalloc" remote="github" revision="opt-cm-14.1" />
- 
-  <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-  <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="opt-cm-14.1" />
- 
+  
   
   <!--Telephony-->
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
@@ -68,7 +65,7 @@
   <project path="flashables" name="dkati/OptimizedCM-flashables" remote="github" revision="opt-cm-14.1" />
   
   <!--Hardware-->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="opt-cm-14.1" />
   
   <!--Device tree-->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
