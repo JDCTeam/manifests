@@ -65,6 +65,9 @@
   <project path="flashables" name="dkati/OptimizedCM-flashables" remote="github" revision="opt-cm-14.1" />
   
   <!--Hardware-->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+  <!--Make repo ,readable by script upstream merger-->
+  <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
   <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="opt-cm-14.1" />
   
   <!--Device tree-->
