@@ -51,9 +51,7 @@
   <project path="packages/apps/PackageInstaller" name="JDCTeam/android_packages_apps_PackageInstaller" remote="github" revision="opt-cm-14.1" />
   
   <!--Pure caf-->
-  <remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap"/>
   <remove-project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2"/>
-  <project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="staging/cm-14.1-rebase" />
   <project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="staging/cm-14.1-rebase" />
   
   
