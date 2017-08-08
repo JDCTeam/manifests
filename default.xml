@@ -61,7 +61,6 @@
   <project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
-  <project path="external/google" name="LineageOS/android_external_google" />
   <project path="external/gmock" name="LineageOS/android_external_gmock"/>
   <project path="external/gson" name="LineageOS/android_external_gson" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
