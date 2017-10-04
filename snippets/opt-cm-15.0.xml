@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!--Vendor blobs-->
+	<!--Vendors-->
 	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-8.x-optcm" />
+	
+	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.0" />
 
 	<!--Device tree-->
 	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/jfltexx" name="JDCTeam/android_device_samsung_jfltexx" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="github" revision="opt-cm-15.0" />
-	<!--LineageOS untouched qcom/common-->
+	
+	
+	<!--LineageOS untouched-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
+
 	
 	<!--Kernel-->
 	<project path="kernel/samsung/jf" name="AOSP-JF-MM/platform_kernel_samsung_jf" remote="github" revision="aosp-8.0-test" />
+	
+	
+	<!--Build-->
+	<remove-project name="LineageOS/android_build" path="build/make" />
+	<project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.0" >
+	  <copyfile src="core/root.mk" dest="Makefile" />
+    	 	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    		<linkfile src="core" dest="build/core" />
+ 		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    		<linkfile src="target" dest="build/target" />
+    		<linkfile src="tools" dest="build/tools" />
+	</project>
+	
+	<!--Bionic-->
+	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.0" />
 
+	
 </manifest>
 
