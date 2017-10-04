@@ -9,6 +9,9 @@
 	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="github" revision="opt-cm-15.0" />
 	<!--LineageOS untouched qcom/common-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+	
+	<!--Kernel-->
+	<project path="kernel/samsung/jf" name="AOSP-JF-MM/platform_kernel_samsung_jf" remote="github" revision="aosp-8.0-test" />
 
 </manifest>
 
