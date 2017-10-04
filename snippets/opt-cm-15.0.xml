@@ -34,6 +34,7 @@
 	</project>
 	
 	<!--Bionic-->
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.0" />
 
 	
