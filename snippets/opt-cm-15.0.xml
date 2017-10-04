@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!--Vendor blobs-->
+	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="opt-cm-15.0" />
+
+	<!--Device tree-->
+	<project path="device/samsung/jf-common" name="oreojf-lineageos/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.0" />
+	<project path="device/samsung/jfltexx" name="oreojf-lineageos/android_device_samsung_jfltexx" remote="github" revision="opt-cm-15.0" />
+	<project path="device/samsung/qcom-common" name="oreojf-lineageos/android_device_samsung_qcom-common" remote="github" revision="opt-cm-15.0" />
+	<!--LineageOS untouched qcom/common-->
+	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+
+</manifest>
+
