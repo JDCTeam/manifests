@@ -37,7 +37,7 @@
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.0" />
 	
 	<!--ART-->
-  	<remove-project name="LineageOS/android_art" path="art"/>
+  	<!--<remove-project name="LineageOS/android_art" path="art"/>-->
 	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-15.0" />
 	
 	<!--Core-->
