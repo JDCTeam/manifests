@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<!--Alucard kernel and ramdisk-->
+	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.0-test" />
+	<project path="kernel/samsung/Ramdisk" name="dkati/Ramdisk" remote="github" revision="cm-15.0" />
+	
 	<!--Vendors-->
 	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.0" />
