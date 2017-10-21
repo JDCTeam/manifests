@@ -16,6 +16,7 @@
 	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
 	
 	<!--Interfaces-->
+	<remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
 	<project name="JDCTeam/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="opt-cm-15.0" />
 	
 	
