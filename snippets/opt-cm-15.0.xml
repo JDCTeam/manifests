@@ -8,6 +8,7 @@
 	<!--Vendors-->
 	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.0" />
+	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.0" />
 	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-8.x-optcm" />
 	
 	<!--Device tree-->
