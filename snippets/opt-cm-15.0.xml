@@ -15,11 +15,13 @@
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
 	
+	<!--Interfaces-->
+	<project name="JDCTeam/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="opt-cm-15.0" />
+	
 	
 	<!--LineageOS untouched-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
-
 	
 	<!--Kernel-->
 	<project path="kernel/samsung/jf" name="AOSP-JF-MM/platform_kernel_samsung_jf" remote="github" revision="aosp-8.0-test" />
