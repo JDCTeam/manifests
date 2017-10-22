@@ -12,9 +12,12 @@
 	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-8.x-optcm" />
 	
 	<!--Device tree-->
+	<remove-project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
+	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
+	
 	
 	<!--Interfaces-->
 	<remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
