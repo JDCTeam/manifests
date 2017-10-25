@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
+	
+	<remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" />
+	<project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.0" />
 	<!--Alucard kernel and ramdisk-->
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.0-test" />
 	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.0" />
