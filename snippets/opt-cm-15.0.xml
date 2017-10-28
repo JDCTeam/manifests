@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	
+	<!--Snap camera-->
+	<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="lineage-15.0" />
+	
+	
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
 	<project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.0" />
 	<!--Alucard kernel and ramdisk-->
