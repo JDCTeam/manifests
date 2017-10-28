@@ -11,8 +11,11 @@
 	<!--Vendors-->
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.0" />
-	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.0" />
 	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-8.x-optcm" />
+	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.0" >
+      		<copyfile src="build.sh" dest="build.sh" />
+	</project>
+	
 	
 	<!--Device tree-->
 	<remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
