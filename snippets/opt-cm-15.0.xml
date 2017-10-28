@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-	
+
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
 	<project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.0" />
 	<!--Alucard kernel and ramdisk-->
@@ -83,6 +82,9 @@
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.0" />
   	<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-15.0" />
 	<project path="packages/apps/PackageInstaller" name="JDCTeam/android_packages_apps_PackageInstaller" remote="github" revision="opt-cm-15.0" />
+	
+	<!--OMS and packages-->
+	<project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 	
 
 </manifest>
