@@ -7,6 +7,7 @@
 	<!--Alucard kernel and ramdisk-->
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.0-test" />
 	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.0" />
+	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.0" />
 	
 	<!--Vendors-->
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
