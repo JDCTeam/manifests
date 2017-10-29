@@ -8,12 +8,10 @@
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="opt-cm-15.0" />
 	
-	<!--Snap camera-->
-	<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="lineage-15.0" />
-	
-	
+	<!--Policy-->
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
 	<project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.0" />
+	
 	<!--Alucard kernel and ramdisk-->
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.0-test" />
 	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.0" />
