@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	
 	<!--Snap camera-->
-	<project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-8.0-test" />
+	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="staging/lineage-15.0-rebase-UM6.4" />
 
 	<!--fw/av-->
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
