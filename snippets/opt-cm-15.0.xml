@@ -62,6 +62,13 @@
     		<linkfile src="tools" dest="build/tools" />
 	</project>
 	
+	<!--Toolchains-->
+    	<!--Stock kernel-->
+    	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />
+    	<!--ROM-->
+    	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
+
+	
 	<!--Bionic-->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.0" />
