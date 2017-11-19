@@ -25,6 +25,13 @@
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
 	
+	<!--LineageOS SDK-->
+	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk"	/>
+	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-15.0" />
+	
+	<!--LineageParts-->
+	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
+	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-15.0" />
 	
 	<!--Device tree-->
 	<remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
