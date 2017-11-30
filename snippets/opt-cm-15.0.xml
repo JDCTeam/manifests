@@ -21,14 +21,6 @@
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
 	
-	<!--LineageOS SDK-->
-	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk"	/>
-	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-15.0" />
-	
-	<!--LineageParts-->
-	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-15.0" />
-	
 	<!--Device tree-->
 	<remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
 	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.0" />
@@ -36,15 +28,9 @@
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
 	
-	
-	<!--Interfaces-->
-	<remove-project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" />
-	<project name="JDCTeam/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="opt-cm-15.0" />
-	
 	<!--Hardware-->
 	<project name="JDCTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="opt-cm-15.0" />
-	
-	
+
 	<!--LineageOS untouched-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
@@ -71,7 +57,6 @@
     	<!--ROM-->
     	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
 
-	
 	<!--Bionic-->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.0" />
@@ -79,11 +64,7 @@
 	<!--ART-->
   	<!--<remove-project name="LineageOS/android_art" path="art"/>-->
 	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-15.0" />
-	
-	<!--Core-->
-  	<remove-project name="LineageOS/android_system_core" path="system/core" />
-	<project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.0" />
-	
+
 	<!--Base-->
   	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.0" />
