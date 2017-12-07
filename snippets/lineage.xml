@@ -161,5 +161,7 @@
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.0" />
   	<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-15.0" />
 
-  
+  <!--Snap camera-->
+	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="staging/lineage-15.0-rebase-UM6.4" />
+
 </manifest>
