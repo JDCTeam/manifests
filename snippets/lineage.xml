@@ -138,8 +138,8 @@
   </project>
   <!--tree-->
   <remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
-	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.0" />
-	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.0" />
+	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.1" />
+	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.1" />
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.0" />
 	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
 	<!--Hardware-->
@@ -152,14 +152,14 @@
    <!--Telephony-->
   	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
-  	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-15.0" />
-  	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.0" />
+  	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-15.1" />
+  	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
 	
 	<!--Packages-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
-	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.0" />
-  	<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="github" revision="opt-cm-15.0" />
+	<project path="packages/apps/Settings" name="dkati/android_packages_apps_Settings-1" remote="github" revision="staging/lineage-15.1" />
+  	<project path="packages/services/Telephony" name="dkati/android_packages_services_Telephony" remote="github" revision="staging/lineage-15.1" />
 
   <!--Snap camera-->
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="staging/lineage-15.0-rebase-UM6.4" />
