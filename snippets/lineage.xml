@@ -173,7 +173,7 @@
 	
 	<remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" />
 	 <project path="hardware/qcom/media-caf/msm8960" name="JDCTeam/android_hardware_qcom_media" revision="opt-cm-15.1" />
-	  <project path="external/ntfs-3g" name="aosp-jf-mm/android_external_ntfs-3g" revision="aosp-8.1"/>
+	  <project path="external/ntfs-3g" name="aosp-jf-mm/platform_external_ntfs-3g" revision="aosp-8.1"/>
 	
 	
 </manifest>
