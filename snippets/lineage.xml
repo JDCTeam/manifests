@@ -171,4 +171,8 @@
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
        <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
 	
+	<remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" />
+	 <project path="hardware/qcom/media-caf/msm8960" name="JDCTeam/android_hardware_qcom_media" revision="opt-cm-15.1" />
+	
+	
 </manifest>
