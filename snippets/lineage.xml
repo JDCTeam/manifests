@@ -177,4 +177,9 @@
 	
 	<remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" />
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="opt-cm-15.1" />
+	
+	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.1" />
+
+
 </manifest>
