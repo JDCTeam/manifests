@@ -180,6 +180,10 @@
 	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.1" />
 	
+	<remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
+	
+	
 	<remove-project path="build/soong" name="LineageOS/android_build_soong"  />
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
