@@ -184,10 +184,7 @@
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 	
 	
-	
 
-	<remove-project path="build/soong" name="LineageOS/android_build_soong"  />
-	<remove-project path="build/make" name="LineageOS/android_build" />
 	 <project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.1" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -199,7 +196,6 @@
   	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-	
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
     		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
