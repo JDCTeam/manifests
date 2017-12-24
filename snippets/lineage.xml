@@ -183,6 +183,8 @@
 	<remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 	
+	<remove-project path="bionic" name="LineageOS/android_bionic" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
 	
 
 	 <project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.1" >
