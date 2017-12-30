@@ -158,7 +158,10 @@
 	<remove-project path="bionic" name="LineageOS/android_bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
 	
-
+	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.1" />
+  	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
+	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
+	
 	 <project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.1" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
