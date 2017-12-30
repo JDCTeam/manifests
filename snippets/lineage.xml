@@ -130,10 +130,8 @@
   	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
 	
 	<!--Packages-->
-	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
-	<project path="packages/apps/Settings" name="dkati/android_packages_apps_Settings-1" remote="github" revision="staging/lineage-15.1" />
-  	<project path="packages/services/Telephony" name="dkati/android_packages_services_Telephony" remote="github" revision="staging/lineage-15.1" />
+	<project path="packages/services/Telephony" name="dkati/android_packages_services_Telephony" remote="github" revision="staging/lineage-15.1" />
 
   <!--Snap camera-->
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="staging/lineage-15.0-rebase-UM6.4" />
