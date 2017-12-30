@@ -162,6 +162,12 @@
   	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
 	
+   	<!--Toolchains-->
+    	<!--Stock kernel-->
+    	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />
+    	<!--ROM-->
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
+
 	 <project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.1" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
