@@ -129,10 +129,6 @@
   	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-15.1" />
   	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
 	
-	<!--Packages-->
-	<remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
-	<project path="packages/services/Telephony" name="dkati/android_packages_services_Telephony" remote="github" revision="staging/lineage-15.1" />
-
 	<!--Core-->
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
        <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
