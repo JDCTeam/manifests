@@ -34,11 +34,11 @@
 	
 	<!--Core-->
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
-    <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
+       <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- System SEPolicy -->
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
-    <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
+       <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- fw/av -->
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
@@ -57,12 +57,13 @@
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
 	
    	<!--Toolchains-->
-    	<!--Stock kernel-->
-    	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />
-    	<!--ROM-->
+		<!--Stock kernel-->
+		<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />
+		<!--ROM-->
 		<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
 
-	<!-- Needed for repo syncing -->
+	<!-- Build -->
+	<remove-project name="LineageOS/android_build" path="build/make" />
 	<project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-15.1" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -74,6 +75,8 @@
   	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
+	<!-- Soong -->
+	<remove-project name="LineageOS/android_build_soong" path="build/soong" />
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
     		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
