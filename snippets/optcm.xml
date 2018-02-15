@@ -14,7 +14,7 @@
 	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.1" />
 	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-15.1" />
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.1" />
-	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
+	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.1" />
 
 	<!--Hardware-->
 	<project name="JDCTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="opt-cm-15.0" />
