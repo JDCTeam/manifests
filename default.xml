@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r25" />
+           revision="refs/tags/android-7.1.2_r36" />
 
   <remote name="los"
 	fetch="https://github.com/LineageOS"
@@ -74,7 +74,7 @@
   <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" /> 
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="los" />  
   <project path="external/jemalloc" name="android_external_jemalloc" remote="los" groups="pdk,flo" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" /> -->
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-7.1.2_r33" /> -->
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
@@ -222,7 +222,7 @@
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="refs/tags/android-7.1.2_r33" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="hal" />
