@@ -33,8 +33,8 @@
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
 	
 	<!--Core-->
-  	<remove-project name="LineageOS/android_system_core" path="system/core" />
-       <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
+  	<!--<remove-project name="LineageOS/android_system_core" path="system/core" />
+       <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />-->
 	
 	<!-- System SEPolicy -->
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
@@ -49,8 +49,8 @@
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- Bionic -->
-	<remove-project name="LineageOS/android_bionic" path="bionic" />
-	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
+	<!--<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />-->
 	
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.1" />
   	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
