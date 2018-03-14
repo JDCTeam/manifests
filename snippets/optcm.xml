@@ -75,11 +75,11 @@
   	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-	<!-- Soong -->
+	<!-- Soong
 	<remove-project name="LineageOS/android_build_soong" path="build/soong" />
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
     		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-	</project>
+	</project> -->
 
 </manifest>
