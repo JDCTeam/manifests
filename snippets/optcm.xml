@@ -2,7 +2,7 @@
 <manifest>
 
 	<!--vendors-->
-	<project path="vendor/samsung" name="jf-bringup/proprietary_vendor_samsung" remote="github" revision="lineage-15.1" />
+	<project path="vendor/samsung" name="aosp-jf-mm/proprietary_vendor_samsung" remote="github" revision="aosp-8.1" />
 	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.1" >
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
@@ -33,12 +33,12 @@
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
 	
 	<!--Core-->
-  	<!--<remove-project name="LineageOS/android_system_core" path="system/core" />
-       <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />-->
+  	<remove-project name="LineageOS/android_system_core" path="system/core" />
+        <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- System SEPolicy -->
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
-       <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
+        <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- fw/av -->
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
@@ -49,8 +49,8 @@
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 	
 	<!-- Bionic -->
-	<!--<remove-project name="LineageOS/android_bionic" path="bionic" />
-	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />-->
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
 	
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.1" />
   	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
@@ -75,11 +75,11 @@
   	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-	<!-- Soong
+	
 	<remove-project name="LineageOS/android_build_soong" path="build/soong" />
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
     		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-	</project> -->
+	</project> 
 
 </manifest>
