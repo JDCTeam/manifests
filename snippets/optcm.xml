@@ -2,7 +2,7 @@
 <manifest>
 
 	<!--vendors-->
-	<project path="vendor/samsung" name="aosp-jf-mm/proprietary_vendor_samsung" remote="github" revision="aosp-8.1" />
+	<project path="vendor/samsung" name="jf-bringup/proprietary_vendor_samsung" remote="github" revision="lineage-15.1" />
 	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.1" >
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
