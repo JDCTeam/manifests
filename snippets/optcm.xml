@@ -16,6 +16,10 @@
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-15.1" />
 	<project path="device/samsung/qcom-common" name="jf-bringup/android_device_samsung_qcom-common" remote="github" revision="lineage-15.1" />
 
+	<!--Packages-->
+	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
+	
 	<!--Hardware-->
 	<project name="JDCTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="opt-cm-15.1" />
   
