@@ -19,7 +19,8 @@
 	<!--Packages-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
-	
+	<project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="o" />
+
 	<!--Hardware-->
 	<project name="JDCTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="opt-cm-15.1" />
   
