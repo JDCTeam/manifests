@@ -6,7 +6,7 @@
 	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.1" >
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
-	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage"  />
+	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.1" />
   
 	<!--Device Tree-->
