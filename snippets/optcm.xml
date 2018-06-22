@@ -62,7 +62,10 @@
 	
    	<!--Toolchains-->
 		<!--Stock kernel-->
-		<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-UBER" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-UBER" />
+   	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B-B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />-->
+   	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="Buff99/Custom_toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linaro-linux-androideabi-7.2" />-->
+
 		<!--ROM-->
 		<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
 
