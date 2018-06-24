@@ -8,7 +8,7 @@
 	</project>
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-15.1" />
-  
+
 	<!--Device Tree-->
 	<remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
 	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-15.1" />
@@ -19,47 +19,47 @@
 	<!--Packages-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!--Hardware-->
 	<project name="TeamNexus/android_hardware_samsung" path="hardware/samsung" remote="github" revision="nx-8.1-audio" />
-  
+
 	<!--LineageOS untouched-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
-	
+
 	<!--Kernel-->
-    <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="aosp-8.1-vend" />
+    <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="aosp-8.1" />
 
 	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-15.1" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!--Core-->
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
         <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!-- System SEPolicy -->
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
         <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!-- fw/av -->
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!-- fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!-- Bionic -->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
-	
+
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.1" />
   	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
-	
+
    	<!--Toolchains-->
 		<!--Stock kernel-->
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-UBER" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-UBER" />
@@ -82,11 +82,11 @@
   	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-	
+
 	<remove-project name="LineageOS/android_build_soong" path="build/soong" />
 	<project path="build/soong" name="JDCTeam/android_build_soong" remote="github" revision="opt-cm-15.1" >
     		<linkfile src="root.bp" dest="Android.bp" />
     		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-	</project> 
+	</project>
 
 </manifest>
