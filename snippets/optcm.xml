@@ -18,8 +18,10 @@
 
 	<!--Packages-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
-
+        <project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="github" revision="opt-cm-15.1" />
+	
 	<!--Hardware-->
 	<project name="TeamNexus/android_hardware_samsung" path="hardware/samsung" remote="github" revision="nx-8.1-audio" />
 
