@@ -2,7 +2,7 @@
 <manifest>
 
 	<!--vendors-->
-	<project path="vendor/samsung" name="aosp-jf-mm/proprietary_vendor_samsung" remote="github" revision="aosp-8.1" />
+	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="opt-cm-15.1" />
 	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-15.1" >
       		<copyfile src="build.sh" dest="build.sh" />
 	</project>
@@ -21,7 +21,7 @@
 	<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
         <project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="github" revision="opt-cm-15.1" />
-	
+
 	<!--Hardware-->
 	<project name="TeamNexus/android_hardware_samsung" path="hardware/samsung" remote="github" revision="nx-8.1-audio" />
 
