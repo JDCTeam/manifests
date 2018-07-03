@@ -30,7 +30,7 @@
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
 
 	<!--Kernel-->
-    <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="aosp-8.1" />
+        <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="aosp-8.1-vend" />
 
 	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
@@ -64,7 +64,7 @@
 
    	<!--Toolchains-->
 		<!--Stock kernel-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-UBER" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-UBER" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-UBER" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-UBER" />
    	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B-B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />-->
    	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="Buff99/Custom_toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linaro-linux-androideabi-7.2" />-->
 
