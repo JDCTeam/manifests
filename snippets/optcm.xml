@@ -47,9 +47,6 @@
 	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
         <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
 
-	<!-- fw/av -->
-	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
-	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="opt-cm-15.1" />
 
 	<!-- fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
