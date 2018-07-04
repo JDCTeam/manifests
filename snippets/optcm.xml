@@ -23,7 +23,7 @@
         <project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="github" revision="opt-cm-15.1" />
 
 	<!--Hardware-->
-	<project name="TeamNexus/android_hardware_samsung" path="hardware/samsung" remote="github" revision="nx-8.1-audio" />
+	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
 
 	<!--LineageOS untouched-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
