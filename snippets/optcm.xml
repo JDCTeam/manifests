@@ -43,11 +43,6 @@
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
         <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-15.1" />
 
-	<!-- System SEPolicy -->
-	<remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
-        <project path="system/sepolicy" name="JDCTeam/android_system_sepolicy" remote="github" revision="opt-cm-15.1" />
-
-
 	<!-- fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
