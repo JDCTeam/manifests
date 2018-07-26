@@ -55,9 +55,6 @@
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-15.1"/>
 	
-	<!--webview-->
-	<project path="external/chromium-webview" name="JDCTeam/android_external_chromium-webview" remote="github" revision="opt-cm-15.1"  />
-	
 	<project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-8.1" />
   	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-15.1" />
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
