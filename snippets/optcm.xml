@@ -48,9 +48,13 @@
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 
-	<!-- Bionic -->
+	<!-- ART -->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
+	
+	<!-- Bionic -->
+	<remove-project name="LineageOS/android_art" path="art" />
+	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-15.1" />
 
 	<!--Lineage SDK-->
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
