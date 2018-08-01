@@ -52,11 +52,11 @@
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-15.1" />
 
-	<!-- ART -->
+	<!-- Bionic -->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-15.1" />
 	
-	<!-- Bionic -->
+	<!-- ART -->
 	<remove-project name="LineageOS/android_art" path="art" />
 	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-15.1" />
 
@@ -69,13 +69,11 @@
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="opt-cm-15.1" />
 
    	<!--Toolchains-->
-		<!--Stock kernel-->
+	<!--Stock kernel-->
         <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro-generic" />
-   	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="B-B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-eabi-4.9-Linaro-generic" />-->
-   	<!--<project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="Buff99/Custom_toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linaro-linux-androideabi-7.2" />-->
-
-		<!--ROM-->
-		<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
+   	
+	<!--ROM-->
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
 
 	<!-- Build -->
 	<remove-project name="LineageOS/android_build" path="build/make" />
