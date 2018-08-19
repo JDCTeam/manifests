@@ -19,6 +19,7 @@
 	<!--Packages-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
+	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-15.1" />
         <project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="github" revision="opt-cm-15.1" />
         <project path="packages/apps/ScreenStabilization" name="JDCTeam/android_packages_apps_ScreenStabilization" remote="github" revision="opt-cm-15.1" />
