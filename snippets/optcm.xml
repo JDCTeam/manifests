@@ -36,7 +36,7 @@
 	
 	<!--Kernel-->
         <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="opt-cm-15.1" />
-	<project path="kerneladiutor" name="JDCteam/MTweaks-KernelAdiutorMOD" remote="github" revision="opt-cm-15.1" />
+	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="github" revision="opt-cm-15.1" />
 	
 	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
