@@ -24,4 +24,6 @@
   <!--Kernel-->
   <project path="kernel/samsung/jf" name="JDCTeam/platform_kernel_samsung_jf" remote="github" revision="opt-cm-16.0" />
 
+  <remove-project name="LineageOS/android_system_core" path="system/core" />
+  <project name="dkati/android_system_core" path="system/core" remote="github" revision="opt-cm-16.0" />
 </manifest>
