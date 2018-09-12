@@ -20,5 +20,5 @@ Building
 
 use our [custom build script](https://github.com/JDCTeam/android_vendor_jdc/blob/opt-cm-15.1/build.sh):
 
-    . build.sh
+    ./build.sh
 
