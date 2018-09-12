@@ -1,5 +1,5 @@
 
-Optimized LineageOS 15.1 for jflte
+Optimized LineageOS 15.1 for jflte [ EOL ]
 ---------------
 (ex. Optimized CyanogenMod builds)
 
