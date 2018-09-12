@@ -6,7 +6,9 @@
 
   <!--Device Tree-->
   <project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-16.0" />
+  <!--Private repositories-->
   <project path="device/samsung/jf-common" name="dkati/android_device_samsung_jf-common" remote="private" revision="opt-cm-16.0" />
+  <project path="device/samsung/jflte" name="dkati/android_device_samsung_jflte" remote="private" revision="opt-cm-16.0" />
 
   
   <!--Hardware-->
