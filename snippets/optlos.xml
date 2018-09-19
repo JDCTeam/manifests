@@ -6,7 +6,8 @@
 
   <!--Device Tree-->
   <project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="github" revision="opt-cm-16.0" />
-  <project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="github" revision="opt-cm-16.0" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" />
   <!--Private repositories-->
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" >
     <copyfile src="initSources.sh" dest="initSources.sh" />
