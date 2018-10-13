@@ -13,6 +13,7 @@
   	<project path="kernel/samsung/jf" 		name="JDCTeam/android_kernel_samsung_jf-private" 		remote="private" revision="opt-cm-16.0" />
 	<project path="vendor/jdc" 				name="JDCTeam/android_vendor_jdc-private" 				remote="private" revision="opt-cm-16.0" >
     		<copyfile src="build.sh" dest="build.sh" />
+		<copyfile src="initSources.sh" dest="initSources.sh" />
  	</project>
 
   	<!--vendor/Lineage-->
