@@ -14,4 +14,9 @@
   <project path="kernel/samsung/jf" 		name="JDCTeam/android_kernel_samsung_jf-private" 		remote="private" revision="opt-cm-16.0" />
   <project path="vendor/jdc" 				name="JDCTeam/android_vendor_jdc-private" 				remote="private" revision="opt-cm-16.0" />
 
+  <!--vendor/Lineage-->
+  <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-16.0" />
+
+  
 </manifest>
