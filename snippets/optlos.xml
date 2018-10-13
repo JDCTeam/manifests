@@ -16,7 +16,10 @@
 
   <!--vendor/Lineage-->
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-16.0" />
+  <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-16.0" />
 
+  <!--Aroma Installer-->
+  <project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="opt-cm-16.0" />
+  <project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="github" revision="opt-cm-16.0" />
   
 </manifest>
