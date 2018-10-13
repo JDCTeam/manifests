@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!--Vendors-->
-  <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="opt-cm-16.0" />
-
-  <!--Device Tree-->
-  <project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="github" revision="opt-cm-16.0" />
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
-  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" />
-  <!--Private repositories-->
-  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" >
-    <copyfile src="initSources.sh" dest="initSources.sh" />
-  </project>
-  <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte-private" remote="private" revision="opt-cm-16.0" />
-
-  <!--Hardware-->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
-
+  
   <!--LineageOS untouched-->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
-
-  <!--Kernel-->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-16.0" />
+ 
+  
+  <!--Private repositories-->
+  <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-private" remote="private" revision="opt-cm-16.0" />
+  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" >
+  </project>
+  <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte-private" remote="private" revision="opt-cm-16.0" />
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-private" remote="private" revision="opt-cm-16.0" />
+ 
 
 </manifest>
