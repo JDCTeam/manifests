@@ -24,4 +24,11 @@
   <project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="opt-cm-16.0" />
   <project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="github" revision="opt-cm-16.0" />
   
+  <!--Telephony-->
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-15.1" />
+	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-15.1" />
+
+  
 </manifest>
