@@ -6,7 +6,7 @@
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="lineage-16.0" />
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
 	<project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="lineage-16.0" />
-	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+	<!--<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />-->
 	<project path="packages/apps/Trebuchet" name="arco/android_packages_apps_Trebuchet" remote="github" revision="lineage-16.0" />
 	
 	
