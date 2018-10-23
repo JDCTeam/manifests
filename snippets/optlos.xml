@@ -2,7 +2,7 @@
 <manifest>
 
 	<!--Temporary packages -->
-	<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
+	<!--<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />-->
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="lineage-16.0" />
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
 	<project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="lineage-16.0" />
