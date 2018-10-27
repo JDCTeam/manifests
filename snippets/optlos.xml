@@ -68,14 +68,6 @@
 	<!-- ART -->
 	<remove-project name="LineageOS/android_art" path="art" />
 	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-16.0" />
-	
-	<!--Toolchains-->
-	<!--BuffCore kernel-->
-        <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro-generic" />
-   	
-	<!--ROM-->
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
-
 
 	<!-- Build -->
 	<remove-project name="LineageOS/android_build" path="build/make" />
