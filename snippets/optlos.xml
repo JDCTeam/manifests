@@ -23,9 +23,8 @@
     		<copyfile src="build.sh" dest="build.sh" />
 		    <copyfile src="initSources.sh" dest="initSources.sh" />
  	</project>
-
-	<!--kernel -->
-	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pie" remote="github" revision="opt-cm-16.0" />
+	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-private" remote="private" revision="opt-cm-16.0" />
+	
 	
 	<!--fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
