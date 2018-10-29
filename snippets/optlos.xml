@@ -4,14 +4,15 @@
 	<!--Temporary packages -->
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="lineage-16.0" />
 	<project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="lineage-16.0" />
-	<project path="packages/apps/Trebuchet" name="arco/android_packages_apps_Trebuchet" remote="github" revision="lineage-16.0" />
 	
 	
   	<!--LineageOS untouched-->
   	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
   	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-16.0" />
  
-  
+	<!--Trebuchet launcher with QuickStep intergration-->
+	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="github" revision="opt-cm-16.0" />
+	
   	<!--Private repositories-->
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-private" remote="private" revision="opt-cm-16.0" />
   	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" />
