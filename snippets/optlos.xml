@@ -53,21 +53,9 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-16.0" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-16.0" />
 
-	<!--Dalvik-->
-	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
-	<project path="dalvik" name="JDCTeam/android_dalvik" remote="github" revision="opt-cm-16.0" />
-	
 	<!--Core-->
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
         <project path="system/core" name="JDCTeam/android_system_core-pie" remote="github" revision="opt-cm-16.0" />
-	
-	<!-- Bionic -->
-	<remove-project name="LineageOS/android_bionic" path="bionic" />
-	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-16.0" />
-	
-	<!-- ART -->
-	<remove-project name="LineageOS/android_art" path="art" />
-	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-16.0" />
 
 	<!-- Build -->
 	<remove-project name="LineageOS/android_build" path="build/make" />
