@@ -29,7 +29,7 @@
 	
 	<!--fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0" />
+	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0-go" />
 	
 	<!--hw/samsung-->
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
