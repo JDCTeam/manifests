@@ -12,7 +12,7 @@
  
 	<!--Launcher3 launcher with QuickStep intergration-->
 	<!-- Needs upstream merge -->
-	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="github" revision="opt-cm-16.0" />
+	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="github" revision="opt-cm-16.0-go" />
 	
   	<!--Private repositories-->
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-private" remote="private" revision="opt-cm-16.0" />
@@ -44,7 +44,7 @@
   
 	<!--Settings-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0" />
+	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0-go" />
 	
   	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
