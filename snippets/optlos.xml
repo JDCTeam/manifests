@@ -23,6 +23,10 @@
 		    <copyfile src="initSources.sh" dest="initSources.sh" />
  	</project>
 	
+	<!-- LineageSDK-->
+	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
+	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-16.0" />
+	
 	<!--kernel-->
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="opt-cm-16.0" />
 	
