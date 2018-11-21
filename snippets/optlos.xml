@@ -62,9 +62,10 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-16.0" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-16.0" />
 
-    <!--Kernel Linaro Toolchain-->
+    	<!--Kernel Linaro Toolchain-->
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-7.1.x-gnueabi" />
-	
+	<!--ROM Linaro toolchain-->
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="JDCTeam/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro" />
 
 	<!--Dalvik-->
 	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
