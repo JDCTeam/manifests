@@ -44,6 +44,10 @@
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0" />
 	
+	<!--fw/native -->
+	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+	<project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-16.0" />
+	
 	<!--hw/samsung-->
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="opt-cm-16.0" />
