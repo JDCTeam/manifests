@@ -31,7 +31,7 @@
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="opt-cm-16.0" />
 	
 	<!--Native SU-->
-	<project path="system/extras/su" name="LineageOS/android_system_extras_su" remote="github" revision="lineage-16.0" />
+	<project path="system/extras/su" name="JDCTeam/android_system_extras_su" remote="github" revision="opt-cm-16.0" />
 	
 	<!--LineageParts-->
         <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
