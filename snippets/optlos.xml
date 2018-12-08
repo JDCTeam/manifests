@@ -37,6 +37,10 @@
         <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-16.0" />
 	
+	<!--perfetto-->
+        <remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
+	<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="github" revision="opt-cm-16.0" />
+	
 	<!--libcxx-->
 	<project path="external/libcxx" name="JDCTeam/android_external_libcxx" remote="github" revision="opt-cm-16.0" />
 	
