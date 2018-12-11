@@ -30,18 +30,9 @@
 	<!--Native SU-->
 	<project path="system/extras/su" name="JDCTeam/android_system_extras_su" remote="github" revision="opt-cm-16.0" />
 	
-	<!--LineageParts-->
-        <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-16.0" />
-	
 	<!--perfetto-->
         <remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
 	<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="github" revision="opt-cm-16.0" />
-	
-	
-	<!--fw/base -->
-	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0" />
 	
 	<!--hw/samsung-->
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
@@ -55,10 +46,6 @@
   	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="opt-cm-16.0" />
   	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="github" revision="opt-cm-16.0" />
   
-	<!--Settings-->
-	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0" />
-	
   	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
