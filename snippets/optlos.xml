@@ -23,9 +23,6 @@
 		    <copyfile src="initSources.sh" dest="initSources.sh" />
  	</project>
 	
-	<!-- LineageSDK-->
-	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-16.0" />
 	
 	<!--kernel-->
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="opt-cm-16.0" />
@@ -41,16 +38,10 @@
         <remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
 	<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="github" revision="opt-cm-16.0" />
 	
-	<!--libcxx-->
-	<project path="external/libcxx" name="JDCTeam/android_external_libcxx" remote="github" revision="opt-cm-16.0" />
 	
 	<!--fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0" />
-	
-	<!--fw/native -->
-	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
-	<project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-16.0" />
 	
 	<!--hw/samsung-->
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
@@ -74,33 +65,7 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-16.0" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-16.0" />
 
-	<!--Dalvik-->
-	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
-	<project path="dalvik" name="JDCTeam/android_dalvik" remote="github" revision="opt-cm-16.0" />
 	
-	<!--Core-->
-  	<remove-project name="LineageOS/android_system_core" path="system/core" />
-        <project path="system/core" name="JDCTeam/android_system_core-pie" remote="github" revision="opt-cm-16.0" />
-	
-	<!-- Bionic -->
-	<remove-project name="LineageOS/android_bionic" path="bionic" />
-	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-16.0" />
-	
-	<!-- ART -->
-	<remove-project name="LineageOS/android_art" path="art" />
-	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-16.0" />
-
-	<!-- Build -->
-	<remove-project name="LineageOS/android_build" path="build/make" />
-	<project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-16.0" >
-    		<copyfile src="core/root.mk" dest="Makefile" />
-    		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    		<linkfile src="core" dest="build/core" />
-	        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-	        <linkfile src="target" dest="build/target" />
-    		<linkfile src="tools" dest="build/tools" />
-  	</project>
   	<project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   	<project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   	<project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
