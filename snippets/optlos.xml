@@ -67,6 +67,10 @@
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0" />
 	
+	<!--Recorder-->
+	<remove-project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" />
+	<project path="packages/apps/Recorder" name="JDCTeam/android_packages_apps_Recorder" remote="github" revision="opt-cm-16.0" />
+	
   	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
