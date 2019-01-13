@@ -15,7 +15,7 @@
 	
   	<!--Private repositories-->
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-private" remote="private" revision="opt-cm-16.0" />
-  	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" />
+  	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0-go" />
   	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte-private" remote="private" revision="opt-cm-16.0" />
   	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc-private" remote="private" revision="opt-cm-16.0" >
     		<copyfile src="build.sh" dest="build.sh" />
@@ -33,7 +33,7 @@
 	<project path="system/extras/su" name="JDCTeam/android_system_extras_su" remote="github" revision="opt-cm-16.0" />
 	
 	<!--LineageParts-->
-        <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
+    <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-16.0" />
 	
 	<!--perfetto-->
