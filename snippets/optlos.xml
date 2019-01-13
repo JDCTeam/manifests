@@ -2,7 +2,6 @@
 <manifest>
 
 	<!--Temporary packages -->
-	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" remote="github" revision="lineage-16.0" />
 	<project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="lineage-16.0" />
 	
 	
@@ -12,27 +11,46 @@
  
 	<!--Launcher3 launcher with QuickStep intergration-->
 	<!-- Needs upstream merge -->
-	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="github" revision="opt-cm-16.0-go" />
+	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remote="github" revision="opt-cm-16.0" />
 	
   	<!--Private repositories-->
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-private" remote="private" revision="opt-cm-16.0" />
-  	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0-go" />
+  	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-private" remote="private" revision="opt-cm-16.0" />
   	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte-private" remote="private" revision="opt-cm-16.0" />
-  	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc-private" remote="private" revision="opt-cm-16.0-go" >
+  	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc-private" remote="private" revision="opt-cm-16.0" >
     		<copyfile src="build.sh" dest="build.sh" />
 		    <copyfile src="initSources.sh" dest="initSources.sh" />
  	</project>
 	
+	<!-- LineageSDK-->
+	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
+	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="github" revision="opt-cm-16.0" />
+	
 	<!--kernel-->
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="opt-cm-16.0" />
 	
-	<!--Wallpaper picker-->
-	<remove-project name="LineageOS/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" />
-	<project path="packages/apps/WallpaperPicker" name="JDCTeam/android_packages_apps_WallpaperPicker" remote="github" revision="opt-cm-16.0-go" />
+	<!--Native SU-->
+	<project path="system/extras/su" name="JDCTeam/android_system_extras_su" remote="github" revision="opt-cm-16.0" />
+	
+	<!--LineageParts-->
+        <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
+	<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="github" revision="opt-cm-16.0" />
+	
+	<!--perfetto-->
+        <remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
+	<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="github" revision="opt-cm-16.0" />
+	
+        <!--Messaging-->
+        <remove-project name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" />
+	<project path="packages/apps/Messaging" name="JDCTeam/android_packages_apps_Messaging" remote="github" revision="opt-cm-16.0" />
 	
 	<!--fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0-go" />
+	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0" />
+	
+	<!--fw/native -->
+	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+	<project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="github" revision="opt-cm-16.0" />
 	
 	<!--hw/samsung-->
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
@@ -40,11 +58,23 @@
 	
   	<!--vendor/Lineage-->
   	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-  	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-16.0-go" />
+  	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="github" revision="opt-cm-16.0" />
+
+	<!--overlays-->
+	<remove-project name="LineageOS/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
+  	<project path="packages/overlays/Lineage" name="JDCTeam/android_packages_overlays_Lineage" remote="github" revision="opt-cm-16.0" />
+	
+  	<!--Aroma Installer-->
+  	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="opt-cm-16.0" />
+  	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="github" revision="opt-cm-16.0" />
   
 	<!--Settings-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0-go" />
+	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0" />
+	
+	<!--Recorder-->
+	<remove-project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" />
+	<project path="packages/apps/Recorder" name="JDCTeam/android_packages_apps_Recorder" remote="github" revision="opt-cm-16.0" />
 	
   	<!--Telephony-->
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
@@ -52,13 +82,28 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-16.0" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-16.0" />
 
+   	<!--Kernel Linaro Toolchain-->
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-7.1.x-gnueabi" />
+
+	<!--Dalvik-->
+	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
+	<project path="dalvik" name="JDCTeam/android_dalvik" remote="github" revision="opt-cm-16.0" />
+	
 	<!--Core-->
   	<remove-project name="LineageOS/android_system_core" path="system/core" />
         <project path="system/core" name="JDCTeam/android_system_core-pie" remote="github" revision="opt-cm-16.0" />
+	
+	<!-- Bionic -->
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-16.0" />
+	
+	<!-- ART -->
+	<remove-project name="LineageOS/android_art" path="art" />
+	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-16.0" />
 
 	<!-- Build -->
 	<remove-project name="LineageOS/android_build" path="build/make" />
-	<project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-16.0-go" >
+	<project path="build/make" name="JDCTeam/android_build" remote="github" revision="opt-cm-16.0" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
