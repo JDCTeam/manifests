@@ -97,6 +97,10 @@
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="github" revision="opt-cm-16.0" />
 	
+	<!--Wallpaper picker-->
+	<remove-project name="LineageOS/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" />
+	<project path="packages/apps/WallpaperPicker" name="JDCTeam/android_packages_apps_WallpaperPicker" remote="github" revision="opt-cm-16.0-go" />
+
 	<!-- ART -->
 	<remove-project name="LineageOS/android_art" path="art" />
 	<project path="art" name="JDCTeam/android_art" remote="github" revision="opt-cm-16.0" />
