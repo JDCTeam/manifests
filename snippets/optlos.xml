@@ -70,7 +70,7 @@
   
 	<!--Settings-->
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0" />
+	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-16.0-go" />
 	
 	<!--Recorder-->
 	<remove-project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" />
