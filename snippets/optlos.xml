@@ -40,6 +40,9 @@
         <remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
 	<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="github" revision="opt-cm-16.0" />
 	
+        <!--Messaging-->
+        <remove-project name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" />
+	<project path="packages/apps/Messaging" name="JDCTeam/android_packages_apps_Messaging" remote="github" revision="opt-cm-16.0" />
 	
 	<!--fw/base -->
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
