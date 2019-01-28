@@ -133,7 +133,7 @@
   	<!--Other packages-->
   	<!--=======================-->
 	  	<!--Aroma Installer-->
-	  	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="jdc" />
+	  	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
 	  	<!--BuffCore App-->
 	  	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" remote="jdc" />
 	  
