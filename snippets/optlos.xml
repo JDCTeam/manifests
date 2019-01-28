@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!--Temporary packages -->
-	<project path="packages/apps/Gallery2" name="arco/android_packages_apps_Gallery2" remote="github" revision="lineage-16.0" />
 	
 	<!--ARM optimized math routines-->
 	<project path="external/arm-optimized-routines" name="jdcteam/android_external_arm-optimized-routines" remote="github" revision="opt-cm-16.0" />
