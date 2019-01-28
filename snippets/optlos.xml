@@ -39,10 +39,7 @@
 		<!-- LineageSDK-->
 		<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 		<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
-		
-		<!--Native SU-->
-		<project path="system/extras/su" name="JDCTeam/android_system_extras_su" remote="jdc" />
-		
+	
 		<!--fw/base -->
 		<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 		<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc" />
