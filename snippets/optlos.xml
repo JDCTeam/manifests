@@ -11,8 +11,12 @@
 		<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-7.1.x-gnueabi" />
 
 		<!--perfetto-->
-    	<remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
+    		<remove-project name="LineageOS/android_external_perfetto" path="external/perfetto" />
 		<project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="jdc" />
+	
+		<!--hardware/interfaces-->
+		<remove-project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" />
+		<project path="hardware/interfaces" name="JDCTeam/android_hardware_interfaces" remote="jdc" />
 
 
 	<!--=======================-->	
