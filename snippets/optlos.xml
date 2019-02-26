@@ -18,6 +18,9 @@
 		<remove-project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" />
 		<project path="hardware/interfaces" name="JDCTeam/android_hardware_interfaces" remote="jdc" />
 
+		<!--system/bt-->
+		<remove-project name="LineageOS/android_system_bt" path="system/bt" />
+		<project path="system/bt" name="JDCTeam/android_system_bt" remote="jdc" />
 
 	<!--=======================-->	
   	<!--LineageOS untouched-->
