@@ -62,7 +62,7 @@
 		
 		<!--Core-->
 	  	<remove-project name="LineageOS/android_system_core" path="system/core" />
-	    <project path="system/core" name="JDCTeam/android_system_core-pie" remote="jdc" />
+	        <project path="system/core" name="JDCTeam/android_system_core-pie" remote="jdc" />
 		
 		<!-- Bionic -->
 		<remove-project name="LineageOS/android_bionic" path="bionic" />
@@ -104,8 +104,12 @@
 			<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 			<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc" />
 
+			<!--Snap-->
+			<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" />
+			<project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="jdc" />
+
 			<!--Messaging-->
-		    <remove-project name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" />
+		        <remove-project name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" />
 			<project path="packages/apps/Messaging" name="JDCTeam/android_packages_apps_Messaging" remote="jdc" />
 
 			<!--Recorder-->
@@ -119,7 +123,7 @@
 			<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc" />
 
 			<!--LineageParts-->
-	        <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
+	        	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 			<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="jdc" />
 		
 	<!--=======================-->
