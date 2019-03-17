@@ -97,8 +97,8 @@
 			<remove-project name="LineageOS/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
 		  	<project path="packages/overlays/Lineage" name="JDCTeam/android_packages_overlays_Lineage" remote="jdc" />
 			<!--Launcher3 launcher with QuickStep intergration-->
-			<!-- Needs upstream merge from AOSP-Extended-->
-			<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remote="jdc" />
+			<!-- Needs upstream merge from LiquidRemix-->
+			<project path="packages/apps/Launcher3" name="JDCTeam/android_packages_apps_Launcher3" remote="jdc" />
 
 			<!--Settings-->
 			<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
