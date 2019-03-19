@@ -51,6 +51,10 @@
 		<!--fw/native -->
 		<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
 		<project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc" />
+	
+		<!--fw/opt/wifi-->
+		<remove-project name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
+		<project path="frameworks/opt/net/wifi" name="JDCTeam/android_frameworks_opt_net_wifi" />
 		
 	  	<!--vendor/Lineage-->
 	  	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
