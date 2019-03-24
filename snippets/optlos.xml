@@ -54,7 +54,7 @@
 	
 		<!--fw/opt/wifi-->
 		<remove-project name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
-		<project path="frameworks/opt/net/wifi" name="JDCTeam/android_frameworks_opt_net_wifi" />
+		<project path="frameworks/opt/net/wifi" name="JDCTeam/android_frameworks_opt_net_wifi" remote="jdc" />
 		
 	  	<!--vendor/Lineage-->
 	  	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
