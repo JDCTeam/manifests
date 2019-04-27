@@ -129,6 +129,10 @@
 			<!--LineageParts-->
 	        	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 			<project path="packages/apps/LineageParts" name="JDCTeam/android_packages_apps_LineageParts" remote="jdc" />
+	
+			<!--NFC-->
+			<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+			<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc" />
 		
 	<!--=======================-->
   	<!--Private repositories-->
