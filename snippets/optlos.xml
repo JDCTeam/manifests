@@ -123,7 +123,7 @@
 		  	<!--Telephony-->
 			<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 			<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
-			<remove-project name="LineageOS/android_packages_services_Telephony" path="packages/service/Telephony"/>
+			<remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony"/>
 			<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
 			<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc" />
 			<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" remote="jdc" />
