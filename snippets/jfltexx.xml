@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<project path="device/samsung/jfltexx" 		name="LineageOS/android_device_samsung_jfltexx" />
+	<project path="device/samsung/jf-common" 	name="LineageOS/android_device_samsung_jf-common" />
+	<project path="device/samsung/qcom-common" 	name="LineageOS/android_device_samsung_qcom-common" />
+	<project path="hardware/samsung" 			name="LineageOS/android_hardware_samsung" />
+	<project path="kernel/samsung/jf" 			name="LineageOS/android_kernel_samsung_jf" />
 </manifest>
