@@ -17,7 +17,10 @@
 		<!--hardware/interfaces-->
 		<remove-project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" />
 		<project path="hardware/interfaces" name="JDCTeam/android_hardware_interfaces" remote="jdc" />
-
+	
+		<!-- hw/bcm/libbt-->
+	 	<remove-project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" />
+		<project path="hardware/broadcom/libbt" name="JDCTeam/android_hardware_broadcom_libbt" remote="jdc" />
 
 	<!--=======================-->	
   	<!--LineageOS untouched-->
