@@ -39,9 +39,14 @@
 		<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 		<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	
-	  	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung-pie" remote="jdc" />
-	  	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte-pie" remote="jdc" />
-	  	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc-pie" remote="jdc">
+	        <!--Vendor blobs-->
+	  	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
+	
+		<!--Device tree-->
+	  	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc" />
+	
+		<!--Vendor JDCTeam-->
+	  	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
 	    		<copyfile src="build.sh" dest="build.sh" />
 	 	</project>
 	
