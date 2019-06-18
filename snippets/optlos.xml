@@ -33,7 +33,7 @@
  	<!-- Samsung S4 jflte kernel and HW-->
  	<!--=======================-->
  		<!--kernel-->
-		<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="jdc" />
+		<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
 
 		<!--hw/samsung-->
 		<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
