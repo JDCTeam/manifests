@@ -40,7 +40,7 @@
 	<project path="external/perfetto" 			name="JDCTeam/android_external_perfetto" 			remote="jdc" />
 	<project path="hardware/interfaces" 		name="JDCTeam/android_hardware_interfaces" 			remote="jdc" />
 	<project path="hardware/broadcom/libbt" 	name="JDCTeam/android_hardware_broadcom_libbt" 		remote="jdc" />
-	<project path="vendor/jdc" 					name="JDCTeam/android_vendor_jdc" 					remote="jdc">
+	<project path="vendor/jdc" 					name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-16.0-go">
 		<copyfile src="build.sh" dest="build.sh" />
 	</project>
 	<project path="lineage-sdk" 				name="JDCTeam/android_lineage-sdk" 					remote="jdc" />
