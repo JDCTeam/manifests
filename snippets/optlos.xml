@@ -27,7 +27,7 @@
 	<remove-project name="LineageOS/android_packages_apps_LineageParts" 	path="packages/apps/LineageParts" />
 	<remove-project name="LineageOS/android_packages_apps_Messaging" 		path="packages/apps/Messaging" />
 	<remove-project name="LineageOS/android_system_core" 					path="system/core" />
-
+        <remove-project name="LineageOS/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" />
 	<!--========================-->	
 	<!--LineageOS untouched-->
 	<!--========================-->
@@ -68,6 +68,7 @@
 	<project path="packages/apps/Snap" 			name="JDCTeam/android_packages_apps_Snap" 			remote="jdc" />
 	<project path="packages/apps/Messaging" 	name="JDCTeam/android_packages_apps_Messaging" 		remote="jdc" />
 	<project path="packages/apps/Recorder" 		name="JDCTeam/android_packages_apps_Recorder" 		remote="jdc" />
+	<project path="packages/apps/Backgrounds" name="JDCTeam/android_packages_apps_Backgrounds" remote="github" revision="opt-cm-16.0-go"  />
 	<project path="frameworks/opt/telephony" 	name="JDCTeam/android_frameworks_opt_telephony" 	remote="jdc" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" 	remote="jdc" />
