@@ -42,7 +42,7 @@
 		<copyfile src="build.sh" dest="build.sh" />
 	</project>
 	<project path="lineage-sdk" 				name="JDCTeam/android_lineage-sdk" 					remote="jdc" />
-	<project path="frameworks/base" 			name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-16.0-uilags"  />
+	<project path="frameworks/base" 			name="JDCTeam/android_frameworks_base" 				remote="jdc" />
 	<project path="frameworks/opt/net/wifi"		name="JDCTeam/android_frameworks_opt_net_wifi" 		remote="jdc" />
 	<project path="vendor/lineage" 				name="JDCTeam/android_vendor_lineage" 				remote="jdc" />
 	<project path="dalvik" 						name="JDCTeam/android_dalvik"						remote="jdc" />
