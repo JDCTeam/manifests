@@ -60,6 +60,7 @@
     <project path="external/connectivity" name="android_external_connectivity" remote="los" />
     <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
     <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
+    <project path="external/droidmedia" name="droidmedia" remote="sailfishos" revision="master" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
     <project path="external/exfat" name="android_external_exfat" remote="los" />
     <project path="external/expat" name="platform/external/expat" groups="pdk" />
@@ -259,5 +260,4 @@
     <project path="halium/halium-boot" name="Halium/halium-boot" remote="hal" revision="master" />
     <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
     <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
-    <project path="halium/droidmedia" name="droidmedia" remote="sailfishos" revision="master" />
 </manifest>
