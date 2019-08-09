@@ -19,6 +19,9 @@
             fetch="https://github.com/TheMuppets"
             revision="refs/heads/cm-14.1" />
 
+    <remote name="sailfishos"
+            fetch="https://github.com/sailfishos" />
+
     <default remote="aosp"
              sync-j="8"
              sync-c="true" />
@@ -57,6 +60,7 @@
     <project path="external/connectivity" name="android_external_connectivity" remote="los" />
     <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
     <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
+    <project path="external/droidmedia" name="droidmedia" remote="sailfishos" revision="master" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
     <project path="external/exfat" name="android_external_exfat" remote="los" />
     <project path="external/expat" name="platform/external/expat" groups="pdk" />
