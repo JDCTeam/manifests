@@ -10,6 +10,7 @@
 	<remove-project name="LineageOS/android_frameworks_base" 				path="frameworks/base" />
 	<remove-project name="LineageOS/android_bionic" 						path="bionic" />
 	<remove-project name="LineageOS/android_frameworks_opt_net_wifi" 		path="frameworks/opt/net/wifi" />
+	<remove-project name="LineageOS/android_frameworks_av" 		path="frameworks/av" />
 	<remove-project name="LineageOS/android_vendor_lineage" 				path="vendor/lineage" />
 	<remove-project name="LineageOS/android_dalvik" 						path="dalvik" />
 	<remove-project name="LineageOS/android_art" 							path="art" />
@@ -45,6 +46,7 @@
 	</project>
 	<project path="lineage-sdk" 				name="JDCTeam/android_lineage-sdk" 					remote="jdc" />
 	<project path="frameworks/base" 			name="JDCTeam/android_frameworks_base" 				remote="jdc" />
+	<project path="frameworks/av" 			name="JDCTeam/android_frameworks_av" 				remote="jdc" />
 	<project path="frameworks/opt/net/wifi"		name="JDCTeam/android_frameworks_opt_net_wifi" 		remote="jdc" />
 	<project path="vendor/lineage" 				name="JDCTeam/android_vendor_lineage" 				remote="jdc" />
 	<project path="dalvik" 						name="JDCTeam/android_dalvik"						remote="jdc" />
