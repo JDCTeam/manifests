@@ -3,7 +3,6 @@
 
 	<!--=======================-->
 	<!-- Forks -->
-	<remove-project name="LineageOS/android_hardware_interfaces" 			path="hardware/interfaces" />
 	<remove-project name="LineageOS/android_external_perfetto" 				path="external/perfetto" />
 	<remove-project name="LineageOS/android_hardware_samsung" 				path="hardware/samsung" />
 	<remove-project name="LineageOS/android_lineage-sdk" 					path="lineage-sdk" />
@@ -40,7 +39,6 @@
 	<!--Optimized LineageOS 16.0-->
 	<!--========================-->
 	<project path="external/perfetto" 			name="JDCTeam/android_external_perfetto" 			remote="jdc" />
-	<project path="hardware/interfaces" 		name="JDCTeam/android_hardware_interfaces" 			remote="jdc" />
 	<project path="vendor/jdc" 					name="JDCTeam/android_vendor_jdc" 					remote="jdc">
 		<copyfile src="build.sh" dest="build.sh" />
 	</project>
