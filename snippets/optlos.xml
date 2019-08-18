@@ -9,7 +9,6 @@
 	<remove-project name="LineageOS/android_bionic" 						path="bionic" />
 	<remove-project name="LineageOS/android_frameworks_av" 		path="frameworks/av" />
 	<remove-project name="LineageOS/android_vendor_lineage" 				path="vendor/lineage" />
-	<remove-project name="LineageOS/android_dalvik" 						path="dalvik" />
 	<remove-project name="LineageOS/android_packages_overlays_Lineage" 		path="packages/overlays/Lineage" />
 	<remove-project name="LineageOS/android_packages_apps_Dialer" 			path="packages/apps/Dialer"/>
 	<remove-project name="LineageOS/android_build" 							path="build/make" />
@@ -44,7 +43,6 @@
 	<project path="frameworks/base" 			name="JDCTeam/android_frameworks_base" 				remote="jdc" />
 	<project path="frameworks/av" 			name="JDCTeam/android_frameworks_av" 				remote="jdc" />
 	<project path="vendor/lineage" 				name="JDCTeam/android_vendor_lineage" 				remote="jdc" />
-	<project path="dalvik" 						name="JDCTeam/android_dalvik"						remote="jdc" />
 	<project path="system/core" 				name="JDCTeam/android_system_core-pie" 				remote="jdc" />
 	<project path="bionic" 						name="JDCTeam/android_bionic" 						remote="jdc" />
 	<project path="build/make" 					name="JDCTeam/android_build" 						remote="jdc" >
