@@ -16,6 +16,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-9.0.0_r46" />
 
+  <remote  name="jdc"
+  		   fetch=".."
+  		   revision="opt-cm-16.0-rebase" />
+
   <default revision="refs/heads/lineage-16.0"
            remote="github"
            sync-c="true"
@@ -640,6 +644,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/optlos.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
