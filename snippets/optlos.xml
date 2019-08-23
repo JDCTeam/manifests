@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!--Project removals-->
+  <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+
   <!-- jflte additions -->
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   <project path="vendor/samsung"  name="JDCTeam/proprietary_vendor_samsung"  remote="jdc" />
   <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte"  remote="jdc" />
-  
+
   <!--========================-->	
   <!--LineageOS untouched-->
   <!--========================-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-16.0" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-16.0" />
+
+  <!--Optimized LineageOS 16.0-->
+  <project path="frameworks/opt/telephony" 	name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
+  <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc" />
 
 </manifest>
