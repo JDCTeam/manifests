@@ -18,6 +18,9 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-16.0" />
 
   <!--Optimized LineageOS 16.0-->
+  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc-old">
+		<copyfile src="build.sh" dest="build.sh" />
+	</project>
   <project path="frameworks/opt/telephony" 	name="JDCTeam/android_frameworks_opt_telephony" remote="jdc-old" />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc-old" />
 
