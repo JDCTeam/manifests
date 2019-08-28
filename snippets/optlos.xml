@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<!--========================-->	
+	<!--LineageOS untouched-->
+	<!--========================-->
+	<project path="packages/resources/devicesettings" 	name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+	<project path="device/samsung/qcom-common" 			name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-16.0" />
+	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-16.0" />
+	
+	<project path="hardware/qcom/display-caf/msm8960" name="arco/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" />
+	<project path="hardware/qcom/media-caf/msm8960" name="arco/android_hardware_qcom_media" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" />
+	
+	
 	<!--=======================-->
 	<!-- Forks -->
 	<remove-project name="LineageOS/android_external_perfetto" 				path="external/perfetto" />
@@ -21,17 +32,9 @@
 	<remove-project name="LineageOS/android_packages_apps_LineageParts" 	path="packages/apps/LineageParts" />
 	<remove-project name="LineageOS/android_packages_apps_Messaging" 		path="packages/apps/Messaging" />
 	<remove-project name="LineageOS/android_system_core" 					path="system/core" />
-
-	<!--========================-->	
-	<!--LineageOS untouched-->
-	<!--========================-->
-	<project path="packages/resources/devicesettings" 	name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
-	<project path="device/samsung/qcom-common" 			name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-16.0" />
-	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-16.0" />
+        <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	
-	<project path="hardware/qcom/display-caf/msm8960" name="arco/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" />
-	<project path="hardware/qcom/media-caf/msm8960" name="arco/android_hardware_qcom_media" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" />
-	<!--========================-->	
+        <!--========================-->	
 	<!--Optimized LineageOS 16.0-->
 	<!--========================-->
 	<project path="external/perfetto" 			name="JDCTeam/android_external_perfetto" 			remote="jdc" />
@@ -65,10 +68,11 @@
 	<project path="packages/services/Telephony" name="JDCTeam/android_packages_services_Telephony" 	remote="jdc" />
 	<project path="packages/apps/Dialer" 		name="JDCTeam/android_packages_apps_Dialer" 		remote="jdc" />
 	<project path="packages/apps/LineageParts" 	name="JDCTeam/android_packages_apps_LineageParts" 	remote="jdc" />
-	<project path="packages/apps/Nfc" 			name="JDCTeam/android_packages_apps_Nfc" 			remote="jdc" />
-	<project path="buffcoreapp" 				name="JDCteam/BuffCoreApp" 							remote="jdc" />
-	<project path="AromaInstaller" 				name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
-
+	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" 			remote="jdc" />
+	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" 							remote="jdc" />
+	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
+        <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+	
 	<!--========================-->	
 	<!--jflte-->
 	<!--========================-->
