@@ -19,11 +19,6 @@
   <remote  name="jdc"
   		   fetch=".."
   		   revision="opt-cm-16.0-rebase" />
-  
-  <remote  name="jdc-old"
-  		   fetch=".."
-  		   revision="opt-cm-16.0" />
-  
 
   <default revision="refs/heads/lineage-16.0"
            remote="github"
