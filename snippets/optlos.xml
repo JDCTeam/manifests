@@ -40,6 +40,8 @@
 	<project path="external/perfetto" 			name="JDCTeam/android_external_perfetto" 			remote="jdc" />
 	<project path="vendor/jdc" 					name="JDCTeam/android_vendor_jdc" 					remote="jdc">
 		<copyfile src="build.sh" dest="build.sh" />
+		<copyfile src="enablePS.sh" dest="enablePS.sh" />
+		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
 	<project path="lineage-sdk" 				name="JDCTeam/android_lineage-sdk" 					remote="jdc" />
 	<project path="frameworks/base" 			name="JDCTeam/android_frameworks_base" 				remote="jdc" />
