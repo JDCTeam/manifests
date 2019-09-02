@@ -33,7 +33,9 @@
 	<remove-project name="LineageOS/android_packages_apps_Messaging" 		path="packages/apps/Messaging" />
 	<remove-project name="LineageOS/android_system_core" 					path="system/core" />
         <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-	
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
+	<remove-project name="LineageOS/android_art" path="art" />
         <!--========================-->	
 	<!--Optimized LineageOS 16.0-->
 	<!--========================-->
@@ -74,6 +76,10 @@
 	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" 							remote="jdc" />
 	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
         <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+	 <project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
+	 <project path="dalvik" name="JDCTeam/android_dalvik" remote="jdc" />
+	 <project path="art" name="JDCTeam/android_art" remote="jdc" />
+
 	
 	<!--========================-->	
 	<!--jflte-->
