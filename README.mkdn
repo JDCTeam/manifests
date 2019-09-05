@@ -1,23 +1,15 @@
-
-Optimized LineageOS 16.0 for jflte
+#AOSP 10.0 for jflte
 ---------------
-(ex. Optimized CyanogenMod builds)
 
-To get started with Android, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To get started with Android, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
 
 To initialize your local repository using our trees, use a command like this:
 
-    repo init -u git://github.com/JDCTeam/manifests.git -b opt-cm-16.0
+    repo init -u git://github.com/JDCTeam/manifests.git -b aosp-10.0
+
 
 Then to sync up:
 
     repo sync
 
-Building
----------------
-
-
-use our [custom build script](https://github.com/JDCTeam/android_vendor_jdc/blob/opt-cm-15.1/build.sh):
-
-    . build.sh
