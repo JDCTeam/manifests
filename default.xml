@@ -751,7 +751,7 @@
     <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
     <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="PixelExperience/vendor_qcom_opensource_cryptfs_hw" revision="pie" remote="github" />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="stx-staging/android_vendor_qcom_opensource_cryptfs_hw" revision="10-caf" remote="github" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
