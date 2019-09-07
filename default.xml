@@ -708,7 +708,7 @@
     <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" revision="opt-cm-17.0" remote="jdc" />
 
 	<!-- hw/samsung -->
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" />
+    <project path="hardware/samsung" name="android_hardware_samsung" revision="opt-cm-17.0" remote="jdc" />
 
     <!-- Qcom common Samsung support -->
     <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lineage" />
