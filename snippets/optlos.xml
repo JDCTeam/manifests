@@ -75,7 +75,7 @@
 	<project path="packages/apps/Dialer" 		name="JDCTeam/android_packages_apps_Dialer" 		remote="jdc" />
 	<project path="packages/apps/LineageParts" 	name="JDCTeam/android_packages_apps_LineageParts" 	remote="jdc" />
 	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" 			remote="jdc" />
-	<project path="buffcoreapp" name="JDCteam/BuffCoreApp" 							remote="jdc" />
+	<project path="buffcoreapp" name="JDCTeam/BuffCoreApp" 							remote="jdc" />
 	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
         <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	 <project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -86,7 +86,7 @@
 	<!--========================-->	
 	<!--jflte-->
 	<!--========================-->
-	<project path="external/arm-optimized-routines" 					name="jdcteam/android_external_arm-optimized-routines" 	remote="jdc" />
+	<project path="external/arm-optimized-routines" 					name="JDCTeam/android_external_arm-optimized-routines" 	remote="jdc" />
 	<project path="kernel/samsung/jf" 									name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
 	<project path="vendor/samsung" 										name="JDCTeam/proprietary_vendor_samsung" 				remote="jdc" />
 	<project path="device/samsung/jflte" 								name="JDCTeam/android_device_samsung_jflte" 			remote="jdc" />
