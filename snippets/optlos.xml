@@ -37,7 +37,7 @@
 	<remove-project name="LineageOS/android_dalvik" path="dalvik" />
 	<remove-project name="LineageOS/android_art" path="art" />
 	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
-	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethod/LatinIME" />
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
         <!--========================-->	
 	<!--Optimized LineageOS 16.0-->
 	<!--========================-->
@@ -76,7 +76,7 @@
 	<project path="packages/apps/Dialer" 		name="JDCTeam/android_packages_apps_Dialer" 		remote="jdc" />
 	<project path="packages/apps/LineageParts" 	name="JDCTeam/android_packages_apps_LineageParts" 	remote="jdc" />
 	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" 			remote="jdc" />
-	<project path="packages/inputmethod/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
+	<project path="packages/inputmethods/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
 	<project path="buffcoreapp" name="JDCTeam/BuffCoreApp" 							remote="jdc" />
 	<project path="AromaInstaller" name="JDCTeam/AromaInstaller" remote="github" revision="9.x" />
         <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
