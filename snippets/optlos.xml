@@ -65,7 +65,7 @@
 	<project path="packages/overlays/Lineage" 	name="JDCTeam/android_packages_overlays_Lineage" 	remote="jdc" />
 	<!--Launcher3 launcher with QuickStep intergration-->
 	<!-- Needs upstream merge from AOSP-Extended-->
-	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remove="github" revision="opt-cm-16.0-rebase" />
+	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remove="jdc" />
 	<project path="packages/apps/Settings" 		name="JDCTeam/android_packages_apps_Settings" 		remote="jdc" />
 	<project path="packages/apps/Snap" 			name="JDCTeam/android_packages_apps_Snap" 			remote="jdc" />
 	<project path="packages/apps/Messaging" 	name="JDCTeam/android_packages_apps_Messaging" 		remote="jdc" />
