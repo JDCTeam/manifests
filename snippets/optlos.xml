@@ -6,5 +6,5 @@
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
   	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
-  	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jf-common" remote="jdc" />
+  	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc" />
 </manifest>
