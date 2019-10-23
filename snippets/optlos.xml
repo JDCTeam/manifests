@@ -10,4 +10,5 @@
 		<copyfile src="build_rom.sh" dest="build_rom.sh" />
 		<copyfile src="updates.sh" dest="updates.sh" />
 	</project>
+	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc" />
 </manifest>
