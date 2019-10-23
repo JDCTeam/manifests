@@ -15,7 +15,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r4" />
-
+  
+  <remote  name="jdc"
+  		   fetch=".."
+  		   revision="opt-cm-17.0" />
+  
   <default revision="refs/heads/lineage-17.0"
            remote="github"
            sync-c="true"
