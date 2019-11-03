@@ -6,7 +6,6 @@
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
   <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
 
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
