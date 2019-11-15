@@ -17,6 +17,8 @@
 	<!-- Optimized LineageOS 17.0-->
 	<!--Removed projects-->
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
+	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	
+	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
 </manifest>
