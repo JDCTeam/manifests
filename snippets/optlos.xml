@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.0" />
+	 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  	<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
 	<!--android10 packages-->
  
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />

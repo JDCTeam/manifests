@@ -654,7 +654,6 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/optlos.xml" />
-  <include name="snippets/extra.xml" />
   <include name="snippets/bringup.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
