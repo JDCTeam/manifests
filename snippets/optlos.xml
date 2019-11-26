@@ -3,10 +3,11 @@
 	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.0" />
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   	<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
+  	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-16.0" />
+	
 	<!--android10 packages-->
  
   	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
-  	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc" >
 		<copyfile src="build_rom.sh" dest="build_rom.sh" />
@@ -21,16 +22,18 @@
 	<remove-project name="LineageOS/android_art" path="art"/>
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="platform/dalvik" path="dalvik" />
+	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
 	<project path="art" name="JDCTeam/android_art" remote="jdc" />
 	<project path="dalvik" name="JDCTeam/android_dalvik" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
+	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	
 	<!--Projects left
 	fw/base , settings, lineageparts, perfetto, fw/av , vendor/lineage, overlays/lineage, dialer, build, recorder, nfc, opt/telephony
-	services/telephony, snap, messaging, core, hw/samsung, fw/native, latinime
+	services/telephony, snap, messaging, core,fw/native, latinime
 
 	Extras: launcher?, arm-optimized-routines? toolchain?
 	-->
