@@ -21,6 +21,7 @@
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	<remove-project name="LineageOS/android_art" path="art"/>
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="platform/dalvik" path="dalvik" />
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	
@@ -30,9 +31,10 @@
 	<project path="dalvik" name="JDCTeam/android_dalvik" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	
 	<!--Projects left
-	fw/base , settings, lineageparts, perfetto, fw/av , vendor/lineage, overlays/lineage, dialer, build, recorder, nfc, opt/telephony
+	fw/base , settings, lineageparts, perfetto, fw/av ,overlays/lineage, dialer, build, recorder, nfc, opt/telephony
 	services/telephony, snap, messaging, core,fw/native, latinime
 
 	Extras: launcher?, arm-optimized-routines? toolchain?
