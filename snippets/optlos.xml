@@ -14,7 +14,11 @@
 		<copyfile src="build_rom.sh" dest="build_rom.sh" />
 		<copyfile src="updates.sh" dest="updates.sh" />
 	</project>
-	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc" />
+	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
+		<copyfile src="build.sh" dest="build.sh" />
+		<copyfile src="enablePS.sh" dest="enablePS.sh" />
+		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
+	</project>
 	
 	<!-- Optimized LineageOS 17.0-->
 	<!--Removed projects-->
