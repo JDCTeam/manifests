@@ -38,7 +38,7 @@
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
-	<project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_nfc" remote="jdc"/>
+	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc"/>
 	<project path="packages/inputmethods/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
 	<project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="jdc" />
 
