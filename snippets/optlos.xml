@@ -26,7 +26,7 @@
 	<remove-project name="platform/dalvik" path="dalvik" />
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
-	<remove-project name="LineageOS/android_packages_apps_nfc" path="packages/apps/Nfc" />
+	<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 	<remove-project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer"/>
 	
