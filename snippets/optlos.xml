@@ -27,6 +27,7 @@
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_nfc" path="packages/apps/Nfc" />
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+	<remove-project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer"/>
 	
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
@@ -38,10 +39,11 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
 	<project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_nfc" remote="jdc"/>
 	<project path="packages/inputmethods/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
+	<project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="jdc" />
 
 	<!--Projects left
-	fw/base , settings, lineageparts, perfetto, fw/av ,overlays/lineage, dialer, build, recorder,
-	services/telephony, snap, messaging, core,fw/native
+	fw/base , settings, lineageparts,  fw/av ,overlays/lineage,  build, 
+	services/telephony,  core,fw/native
 
 	Extras: launcher?, arm-optimized-routines? toolchain?
 	-->
