@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.0" />
-	 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   	<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
 	<!--android10 packages-->
  
@@ -18,9 +18,13 @@
 	<!--Removed projects-->
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+	<remove-project name="LineageOS/android_art" path="art"/>
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
+	<project path="art" name="JDCTeam/android_art" remote="jdc" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
 	
 	<!--Projects left
 	fw/base , settings, lineageparts, perfetto, fw/av , vendor/lineage, overlays/lineage, dialer, build, recorder, nfc, opt/telephony
