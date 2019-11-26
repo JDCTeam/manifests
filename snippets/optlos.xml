@@ -25,6 +25,7 @@
 	<remove-project name="platform/dalvik" path="dalvik" />
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+	<remove-project name="LineageOS/android_packages_apps_nfc" path="packages/apps/Nfc" />
 	
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
@@ -34,9 +35,10 @@
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
-	
+	<project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_nfc" remote="jdc"/>
+
 	<!--Projects left
-	fw/base , settings, lineageparts, perfetto, fw/av ,overlays/lineage, dialer, build, recorder, nfc, opt/telephony
+	fw/base , settings, lineageparts, perfetto, fw/av ,overlays/lineage, dialer, build, recorder,
 	services/telephony, snap, messaging, core,fw/native, latinime
 
 	Extras: launcher?, arm-optimized-routines? toolchain?
