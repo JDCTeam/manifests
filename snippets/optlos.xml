@@ -28,6 +28,7 @@
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="platform/dalvik" path="dalvik" />
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
+	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
@@ -41,12 +42,13 @@
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
+	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc" />
 	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc"/>
 	<project path="packages/inputmethods/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
 	<project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="jdc" />
 
 	<!--Projects left
-	fw/base , settings, lineageparts,  fw/av, overlays/lineage,  build, services/telephony,  core, fw/native
+	fw/base , settings, lineageparts,  overlays/lineage,  build, services/telephony,  core, fw/native
 	Extras: launcher?, arm-optimized-routines? 
 	-->
 </manifest>
