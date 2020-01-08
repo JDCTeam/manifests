@@ -29,6 +29,7 @@
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+	<remove-project name="LineageOS/android_art" path="art"/>
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -40,5 +41,6 @@
 	<project path="packages/inputmethods/LatinIME" name="JDCTeam/android_packages_inputmethods_LatinIME" remote="jdc" />
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc" />
+	<project path="art" name="JDCTeam/android_art" remote="jdc" />
 	
 </manifest>
