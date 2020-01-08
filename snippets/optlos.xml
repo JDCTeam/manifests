@@ -43,4 +43,10 @@
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc" />
 	<project path="art" name="JDCTeam/android_art" remote="jdc" />
 	
+	<!--Projects left
+	fw/base , settings, lineageparts,  overlays/lineage,  build, services/telephony,  system/core, fw/native, dalvik, 
+	Extras: launcher?, arm-optimized-routines? 
+	Also missing our -o3 flags on dalvik/art/bionic/systemcore
+	-->
+	
 </manifest>
