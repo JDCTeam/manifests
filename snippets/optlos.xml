@@ -21,10 +21,12 @@
 	<!-- Optimized lineageos 17.1 for jflte-->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
+	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	
 </manifest>
