@@ -18,7 +18,11 @@
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
 	
+	<!-- Optimized lineageos 17.1 for jflte-->
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+	
+	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
 	
 </manifest>
