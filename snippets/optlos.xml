@@ -25,6 +25,7 @@
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 	<remove-project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer"/>
+	<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -32,5 +33,6 @@
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
 	<project path="packages/apps/Dialer" name="JDCTeam/android_packages_apps_Dialer" remote="jdc" />
+	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc"/>
 	
 </manifest>
