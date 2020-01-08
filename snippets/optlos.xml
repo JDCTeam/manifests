@@ -17,4 +17,8 @@
 		<copyfile src="enablePS.sh" dest="enablePS.sh" />
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
+	
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
+	
 </manifest>
