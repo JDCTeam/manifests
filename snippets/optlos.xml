@@ -32,6 +32,8 @@
 	<remove-project name="LineageOS/android_art" path="art"/>
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<remove-project name="LineageOS/android_build" path="build/make" />
+	<remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -46,9 +48,19 @@
 	<project path="art" name="JDCTeam/android_art" remote="jdc" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"/>
+	<project path="build/make" name="JDCTeam/android_build" remote="jdc" >
+	    <copyfile src="core/root.mk" dest="Makefile" />
+	    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	    <linkfile src="core" dest="build/core" />
+	    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	    <linkfile src="target" dest="build/target" />
+	    <linkfile src="tools" dest="build/tools" />
+	</project>
+	<project path="packages/apps/LineageParts" 	name="JDCTeam/android_packages_apps_LineageParts" 	remote="jdc" />
 	
 	<!--Projects left
-	lineageparts,  overlays/lineage,  build, services/telephony,  system/core, fw/native, dalvik, 
+	 overlays/lineage, services/telephony,  system/core, fw/native, dalvik, 
 	Extras: launcher?, arm-optimized-routines? 
 	Also missing our -o3 flags on dalvik/art/bionic/systemcore
 	-->
