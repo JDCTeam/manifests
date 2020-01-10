@@ -30,6 +30,8 @@
 	<remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
 	<remove-project name="LineageOS/android_art" path="art"/>
+	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
+	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -42,9 +44,11 @@
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
 	<project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc" />
 	<project path="art" name="JDCTeam/android_art" remote="jdc" />
+	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc" />
+	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"/>
 	
 	<!--Projects left
-	fw/base , settings, lineageparts,  overlays/lineage,  build, services/telephony,  system/core, fw/native, dalvik, 
+	lineageparts,  overlays/lineage,  build, services/telephony,  system/core, fw/native, dalvik, 
 	Extras: launcher?, arm-optimized-routines? 
 	Also missing our -o3 flags on dalvik/art/bionic/systemcore
 	-->
