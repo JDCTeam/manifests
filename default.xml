@@ -44,6 +44,7 @@
 
     <project path="development" name="android_development" remote="los" />
 
+    <project path="device/common" name="device/common" groups="device" remote="aosp" />
     <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom" remote="los" />
     <project path="device/qcom/common" name="android_device_qcom_common" groups="qcom" remote="los" />
