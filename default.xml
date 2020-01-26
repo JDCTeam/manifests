@@ -246,7 +246,7 @@
     <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="los" />
     <project path="system/security" name="Halium/android_system_security" groups="pdk" remote="hal" />
     <project path="system/sepolicy" name="Halium/android_system_sepolicy" remote="hal" groups="pdk" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="hal" />
+    <project path="system/vold" name="Halium/android_system_vold" groups="pdk" remote="hal" />
     <project path="system/tools/aidl" name="Halium/android_system_tools_aidl" remote="hal" groups="pdk" />
 
     <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
