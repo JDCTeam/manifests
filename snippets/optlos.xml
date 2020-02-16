@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.1" />
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
-  	<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
+	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.1" />  	
+	<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1" />
   	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" 	remote="github" revision="arm-linux-7.1.x-gnueabi" />
 	
