@@ -33,6 +33,7 @@
 	<remove-project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware"/>	
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 	<remove-project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap"  />
+	<remove-project name="LineageOS/android_system_core" path="system/core"  />
 	
 	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
@@ -60,6 +61,8 @@
 	<project path="hardware/libhardware" name="JDCTeam/android_hardware_libhardware" remote="jdc" />
 	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="jdc"/>
 	<project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="jdc" />
+	<project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
+	
 	
 	
 	<!--our manifest-->
