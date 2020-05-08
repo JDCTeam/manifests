@@ -261,7 +261,7 @@
 
     <project path="halium/audioflingerglue" name="Halium/audioflingerglue" remote="hal" />
     <project path="halium/devices" name="Halium/halium-devices" remote="hal" />
-    <project path="halium/droidmedia" name="droidmedia" remote="sailfishos" revision="refs/tags/0.20191025.0" />
+    <project path="halium/droidmedia" name="droidmedia" remote="sailfishos" revision="refs/tags/0.20200424.0" />
     <project path="halium/halium-boot" name="Halium/halium-boot" remote="hal" revision="master" />
     <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
     <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
