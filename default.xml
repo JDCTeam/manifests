@@ -57,6 +57,7 @@
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
     <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
     <project path="external/bison" name="platform/external/bison" groups="pdk" />
+    <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
     <project path="external/bson" name="android_external_bson" remote="los" />
     <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
     <project path="external/bzip2" name="android_external_bzip2" remote="los" groups="pdk" />
@@ -76,6 +77,7 @@
     <project path="external/fuse" name="android_external_fuse" remote="los" />
     <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
+    <project path="external/gmock" name="platform/external/gmock" groups="pdk" />
     <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
     <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs" />
     <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
@@ -91,6 +93,7 @@
     <project path="external/libcap-ng" name="platform/external/libcap-ng" />
     <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
     <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
+    <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
     <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
     <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
     <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
