@@ -22,7 +22,7 @@
     <remote name="them2"
             fetch="https://gitlab.com/The-Muppets"
             revision="refs/heads/cm-14.1" />
-    
+
     <remote name="sailfishos"
             fetch="https://github.com/sailfishos" />
 
@@ -34,7 +34,7 @@
 
     <project path="bionic" name="Halium/android_bionic" groups="pdk" remote="hal" />
 
-    <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" /> 
+    <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" />
 
     <project path="build" name="Halium/android_build" groups="pdk,tradefed" remote="hal" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -81,15 +81,15 @@
     <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
     <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs" />
     <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
-    <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="los" />  
-    <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" /> 
+    <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="los" />
+    <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" />
     <project path="external/jemalloc" name="android_external_jemalloc" remote="los" groups="pdk,flo" />
     <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-7.1.2_r33" /> -->
     <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
     <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
     <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
     <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
-    <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />    
+    <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
     <project path="external/libcap-ng" name="platform/external/libcap-ng" />
     <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
     <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -242,7 +242,7 @@
     <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
     <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" remote="aosp" />
     <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-    <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="refs/tags/android-7.1.2_r33" />
+    <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" revision="refs/tags/android-7.1.2_r33" />
     <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
 
     <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
