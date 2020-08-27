@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r40" />
+           revision="refs/tags/android-10.0.0_r41" />
 
   <remote  name="jdc"
   		   fetch=".."
@@ -622,7 +622,7 @@
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
-  <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
+  <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
