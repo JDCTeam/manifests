@@ -23,6 +23,7 @@
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
+  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
