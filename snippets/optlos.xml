@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/samsung/qcom-common"      name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-18.0" />  	  	
+	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
+	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
+  	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
+	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" 	remote="github" revision="arm-linux-7.1.x-gnueabi" />
+	
+	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
+		<copyfile src="build.sh" dest="build.sh" />
+		<copyfile src="enablePS.sh" dest="enablePS.sh" />
+		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
+	</project>
+
+	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+    <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
+
+
+	<!--our manifest-->
+	<remove-project name="LineageOS/android" path="android" />
+        <project path="android" name="JDCTeam/manifests" remote="jdc" />
+
+</manifest>
