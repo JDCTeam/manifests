@@ -5,7 +5,7 @@
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
 	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" 	remote="github" revision="arm-linux-7.1.x-gnueabi" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" 	remote="github" revision="arm-linux-7.1.x-gnueabi" />
 	
 	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
 		<copyfile src="build.sh" dest="build.sh" />
@@ -13,8 +13,19 @@
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
 
+	<remove-project name="LineageOS/android_build" path="build/make" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-    <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
+	
+    	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
+	<project path="build/make" name="JDCTeam/android_build" remote="jdc" >
+	    <copyfile src="core/root.mk" dest="Makefile" />
+	    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	    <linkfile src="core" dest="build/core" />
+	    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	    <linkfile src="target" dest="build/target" />
+	    <linkfile src="tools" dest="build/tools" />
+	</project>
 
 
 	<!--our manifest-->
