@@ -17,7 +17,9 @@
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+	<remove-project name="LineageOS/android_art" path="art"/>
 	
+	<project path="art" name="JDCTeam/android_art" remote="jdc" />
 	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
     	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remote="jdc"/>
