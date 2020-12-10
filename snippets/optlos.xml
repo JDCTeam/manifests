@@ -14,9 +14,11 @@
 	</project>
 
 	<remove-project name="LineageOS/android_build" path="build/make" />
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 	
+	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
     	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remote="jdc"/>
 	<project path="build/make" name="JDCTeam/android_build" remote="jdc" >
