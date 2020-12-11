@@ -13,6 +13,7 @@
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
 
+	<remove-project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 	<remove-project name="LineageOS/android_build" path="build/make" />
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
@@ -26,6 +27,7 @@
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 	<remove-project name="LineageOS/android_system_core" path="system/core" />
 	
+	<project path="device/lineage/sepolicy" name="JDCTeam/android_device_lineage_sepolicy" remote="jdc" />
 	<project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc" />
