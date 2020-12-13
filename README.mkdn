@@ -1,27 +1,18 @@
 
-Optimized LineageOS 18.0 for jflte
----------------
-(ex. Optimized CyanogenMod builds)
+Official LineageOS 18.0 for jfltexx
+-----------------------------------
 
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using our trees, use a command like this:
 
-    repo init -u git://github.com/JDCTeam/manifests.git -b opt-cm-18.0
+    repo init -u git://github.com/JDCTeam/manifests.git -b official-18.0
 
 or
 
-    repo init --depth=1 -u git://github.com/JDCTeam/manifests.git -b opt-cm-18.0
+    repo init --depth=1 -u git://github.com/JDCTeam/manifests.git -b official-18.0
 
 Then to sync up:
 
     repo sync
-
-Building
----------------
-
-
-use our [custom build script](https://github.com/JDCTeam/android_vendor_jdc/blob/opt-cm-18.0/build.sh):
-
-    . build.sh
