@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-18.0" />  	  	
+	<project path="kernel/samsung/jf" name="LineageOS/android_kernel_samsung_jf" remote="github" revision="lineage-18.0" />
+  	<project path="device/samsung/jfltexx" name="LineageOS/android_device_samsung_jfltexx" remote="github" revision="lineage-18.0"/>
+	<project path="device/samsung/jf-common" name="LineageOS/android_device_samsung_jf-common" remote="github" revision="lineage-18.0"/>
+	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.0"/>
+	
+	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="lineage-18.0"/>
+	
+	
+	<!-- drop 
+		device/lineage/sepolicy/legacy-common	
+	-->
+	<!--our manifest-->
+	<remove-project name="LineageOS/android" path="android" />
+        <project path="android" name="JDCTeam/manifests" remote="jdc" />
+
+</manifest>
