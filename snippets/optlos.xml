@@ -15,28 +15,22 @@
 
 	<remove-project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 	<remove-project name="LineageOS/android_build" path="build/make" />
-	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
-	<remove-project name="LineageOS/android_art" path="art"/>
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-	<remove-project name="LineageOS/android_system_core" path="system/core" />
 	
 	<project path="device/lineage/sepolicy" name="JDCTeam/android_device_lineage_sepolicy" remote="jdc" />
-	<project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
 	<project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"/>
 	<project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc"/>
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
-	<project path="art" name="JDCTeam/android_art" remote="jdc" />
-	<project path="bionic" name="JDCTeam/android_bionic" remote="jdc" />
     	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
 	<project path="packages/apps/Launcher3" name="JDCTeam/platform_packages_apps_Launcher3" remote="jdc"/>
 	<project path="build/make" name="JDCTeam/android_build" remote="jdc" >
