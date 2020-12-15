@@ -49,7 +49,6 @@
 
 
 	<!--our manifest-->
-	<remove-project name="LineageOS/android" path="android" />
         <project path="android" name="JDCTeam/manifests" remote="jdc" />
 
 </manifest>
