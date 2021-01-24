@@ -18,7 +18,6 @@
 	<remove-project name="LineageOS/android_build" path="build/make" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
-	<remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 	<remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 	<remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
@@ -38,7 +37,6 @@
 	<project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc" />
 	<project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" 	remote="jdc" />
     	<project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
-	<project path="packages/apps/Launcher3" name="JDCTeam/android_packages_apps_Launcher3" remote="jdc"/>
 	<project path="build/make" name="JDCTeam/android_build" remote="jdc" >
 	    <copyfile src="core/root.mk" dest="Makefile" />
 	    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
