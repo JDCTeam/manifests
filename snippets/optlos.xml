@@ -25,7 +25,7 @@
 	<remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
 	<remove-project name="LineageOS/android_system_core" path="system/core" />
-        <remote-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet"/>
+        <remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet"/>
 	
         <project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="jdc"/>
 	<project path="packages/apps/Snap" name="JDCTeam/android_packages_apps_Snap" remote="jdc"/>
