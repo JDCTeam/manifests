@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
+	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc"/>
+	<project path="bootable/recovery" name="JDCTeam/android_bootable_recovery" remote="jdc"/>
+</manifest>
