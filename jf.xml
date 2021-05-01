@@ -2,7 +2,8 @@
 <manifest>
 
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
- 
+ 	<project path="device/qcom/sepolicy" name="JDCTeam/android_device_qcom_sepolicy" remote="jdc"/>
+	
 	<remove-project path="system/core" name="android_system_core" />
 	<project path="system/core" name="JDCTeam/android_system_core" remote="jdc"/>
 	
