@@ -6,7 +6,7 @@
 
   <remote  name="jdc"
   		   fetch=".."
-  		   revision="twrp-jf" />
+  		   revision="pitchblack-jf" />
 
   <default revision="refs/tags/android-8.1.0_r67"
            remote="aosp"
