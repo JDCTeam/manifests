@@ -1,24 +1,3 @@
-
-```bash
-git commit --amend --author "Author <email@address.com>"
-```
-
-So it should look like this once you get all of the author's information
-
-```bash
-git commit --amend --author "Spencer McGillicuddy <spencer.the.bestest@gmail.com>"
-```
-
-Alternatively, adding as part of the original `git commit` message is preferred and done like the following:
-
-```bash
-git commit --author="Author <email@address.com>" -m "[commit message]"
-```
-
-This saves time, and when part of your normal routine, prevents the infamous "ermahgerd I forgot to add authorship -
-let me fix it because I was found out!" message.
-
-
 Getting Started
 ======
 
