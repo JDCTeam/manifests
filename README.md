@@ -11,9 +11,8 @@ To initialize your local repository using the OMNIROM trees to build TWRP, use a
 
 Then to build:
 ```bash
-     cd <source-dir>
-     export ALLOW_MISSING_DEPENDENCIES=true
+     export ALLOW_MISSING_DEPENDENCIES=true && LC_ALL=C
      . build/envsetup.sh
-     lunch omni_<device>-eng
+     lunch omni_jflte-eng
      mka recoveryimage
 ```
