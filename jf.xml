@@ -3,7 +3,7 @@
 
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc-twrp"/>
-	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="jdc" />  
+	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="jdc-twrp" />  
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi-7.2" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-Linaro-generic" />
    	
 
