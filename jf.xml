@@ -3,6 +3,6 @@
 
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc"/>
-	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="jdc" />  
+	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="jdc" />  
 
 </manifest>
