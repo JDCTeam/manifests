@@ -1,23 +1,3 @@
-Submitting Patches
-======
-Our project is open source, and patches are always welcome!
-You can send patches by using:
-
-Pull request, right here on git.
-
-Contact @lj50036 on irc, Network: freenode, Channel: #twrp
-
-
-Maintaining Authorship
-======
-Maintaining authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
-from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
-work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
-are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
-
-If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.omnirom.org).
-This is a very easy task to perform, and is usually done after you commit a patch/fix locally. This is accomplished
-after you type in `git commit -a` , type in the commit message and save. You would then do the following:
 
 ```bash
 git commit --amend --author "Author <email@address.com>"
@@ -47,23 +27,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 ```bash
-    repo init -u git://github.com/PitchBlackTWRP/manifest_pb.git -b android-8.1
-```
- For Initial Low RAM Devices:
-```bash
-    repo init -u git://github.com/PitchBlackTWRP/manifest_pb.git -b android-6.0
-```
-To initialize a shallow clone, which will save even more space, use a command like this:
-```bash
-    repo init --depth=1 -u git://github.com/PitchBlackTWRP/manifest_pb.git -b android-8.1
-```
-For Initial Low RAM Devices:
-```bash
-    repo init -u git://github.com/PitchBlackTWRP/manifest_pb.git -b android-6.0
-```
-Then to sync up:
-```bash
-repo sync
+    repo init -u git://github.com/JDCTeam/manifests.git -b pitchblack-jf
 ```
 
 Then to build:

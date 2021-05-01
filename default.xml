@@ -3,6 +3,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="jdc"
+  		   fetch=".."
+  		   revision="twrp-jf" />
+
   <default revision="refs/tags/android-8.1.0_r67"
            remote="aosp"
            sync-c="true"
@@ -621,5 +626,8 @@
 
   <!-- OmniROM -->
   <include name="omni-default.xml" />
+ 
+  <!--jf-->
+  <include name="jf.xml" />
 
 </manifest>
