@@ -24,6 +24,18 @@
            sync-j="4"
            revision="refs/heads/11.0" />
 
+  <remote  name="jdc"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/cr-11.0" />
+
+  <remote  name="optlos"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/opt-cm-18.1" />
+
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/"
            sync-c="true"
@@ -788,6 +800,7 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/jflte.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
