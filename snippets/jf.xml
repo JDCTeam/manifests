@@ -4,7 +4,7 @@
 	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc"/>
 	<project path="bootable/recovery-twrp" name="JDCTeam/android_bootable_recovery" remote="jdc"/> <!-- we need lineage recovery too-->
-	<project path="device/samsung/qcom-common" name="JDCTeam/android_device_samsung_qcom-common" remote="github" revision="lineage-15.1"/>
-	<project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="lineage-15.1" />
+	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-15.1"/>
+	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-15.1" />
 	
 </manifest>
