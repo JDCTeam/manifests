@@ -8,7 +8,7 @@
             fetch="https://github.com/JDCTeam/" 
             revision="ubuntutouch" />
 
-    <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="jdc" />
+    <project path="device/samsung/jflte" name="android_device_samsung_jflte" remote="jdc" />
     <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="jdc" />
     <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="jdc" />
     <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="jdc" />
