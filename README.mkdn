@@ -1,0 +1,1 @@
+repo init -u git://github.com/JDCTeam/manifests.git -b ubuntutouch
