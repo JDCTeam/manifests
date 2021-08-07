@@ -2,12 +2,14 @@ repo init -u git://github.com/JDCTeam/manifests.git -b ubuntutouch
 
 
 # build
+```
 source build/envsetup.sh
 lunch lineage_jflte-userdebug
 mka mkbootimg
 export USE_HOST_LEX=yes
 mka halium-boot
 mka systemimage
+```
 
 # install 
 1. download https://ci.ubports.com/job/xenial-rootfs-armhf/
@@ -17,9 +19,12 @@ mka systemimage
 5. ./halium-install -p ut ubuntutouch/theDownloaded.tar.gz ubuntutouch/system.img
 6. reboot to system
 7. it will stuck to boot animation. Go back to TWRP
-8. adb shell
-9. mount /data/rootfs.img /a
-10. cd /a/etc/udev
-11. nano rules.d
-12. paste the stuff from : https://github.com/JDCTeam/android_device_samsung_jf-common/blob/ubuntutouch/rules.d
-13. reboot to system now
+8. Run adb shell and 
+
+```
+mount /data/rootfs.img /a
+cd /a/etc/udev
+nano rules.d
+```
+1. paste the stuff from : https://github.com/JDCTeam/android_device_samsung_jf-common/blob/ubuntutouch/rules.d
+2. reboot to system now
