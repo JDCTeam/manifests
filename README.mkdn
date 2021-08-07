@@ -13,6 +13,6 @@ mka systemimage
 1. download https://ci.ubports.com/job/xenial-rootfs-armhf/
 2. flash helium-boot.img as BOOT image via TWRP
 3. when its done, let device at TWRP
-4. place helium-boot.img, system.img and the downloaded tar, to the 'ubuntutouch' folder inside helium-install repo/folder
-5. ./helium-install -p ut ubuntutouch/theDownloaded.tar.gz ubuntutouch/system.img
+4. place halium-boot.img, system.img and the downloaded tar, to the 'ubuntutouch' folder inside halium-install repo/folder
+5. ./halium-install -p ut ubuntutouch/theDownloaded.tar.gz ubuntutouch/system.img
 6. reboot to system
