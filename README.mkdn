@@ -1,7 +1,7 @@
 repo init -u git://github.com/JDCTeam/manifests.git -b ubuntutouch
 
 
-# build
+# Build
 ```
 source build/envsetup.sh
 lunch lineage_jflte-userdebug
@@ -11,15 +11,16 @@ mka halium-boot
 mka systemimage
 ```
 
-# install 
+# Install 
 1. download https://ci.ubports.com/job/xenial-rootfs-armhf/
 2. flash helium-boot.img as BOOT image via TWRP
 3. when its done, let device at TWRP
 4. place halium-boot.img, system.img and the downloaded tar, to the 'ubuntutouch' folder inside halium-install repo/folder
-5. ./halium-install -p ut ubuntutouch/theDownloaded.tar.gz ubuntutouch/system.img
-6. reboot to system
-7. it will stuck to boot animation. Go back to TWRP
-8. Run adb shell and 
+5. connect device to USB and let it wait at TWRP
+6. ./halium-install -p ut ubuntutouch/theDownloaded.tar.gz ubuntutouch/system.img
+7. reboot to system
+8. it will stuck to boot animation. Go back to TWRP
+9. Run adb shell and 
 
 ```
 mount /data/rootfs.img /a
@@ -28,3 +29,35 @@ nano rules.d
 ```
 1. paste the stuff from : https://github.com/JDCTeam/android_device_samsung_jf-common/blob/ubuntutouch/rules.d
 2. reboot to system now
+
+# End user installation steps
+1. Download https://github.com/JDCTeam/halium-install/archive/refs/heads/ubuntutouch.zip and extract it somewhere
+2. Download Ubuntu Touch for jf: https://drive.google.com/drive/folders/1vOLN_uc4mJgJijq1JyfSC24BRNfvOz0I?usp=sharing
+3. Wipe EVERYTHING from your device.
+4. 5. connect device to USB and let it wait at TWRP
+5. Get helium-boot.img and paste it to your device. Flash it as BOOT image via TWRP and dont reboot
+6. Download ubports-touch.rootfs-xenial-armhf.tar.gz from https://ci.ubports.com/job/xenial-rootfs-armhf/ under 'Last Successful Artifacts'
+7. Place the downloaded tar to the downloadedFolderFromStep1/ubuntutouch
+8. run ```./halium-install -p ut ubuntutouch/ubports-touch.rootfs-xenial-armhf.tar.gz ubuntutouch/system.img```
+9. it will take some time...be patient
+10. When its done, reboot. It will propably stuck at boot animation. Reboot to TWRP
+11. Run ```adb shell``` and 
+```
+mount /data/rootfs.img /a
+cd /a/etc/udev
+nano rules.d
+```
+save it and then
+```
+sync
+reboot
+```
+12. Hello!!!
+
+-------------------------
+PS.
+Instead of 'nano rules.d' you can simply exit from `adb shell` and do
+save the rules to a local file
+```
+adb push rules.d /a/etc/udev
+```
