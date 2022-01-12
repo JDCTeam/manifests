@@ -5,9 +5,9 @@
   
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
   <project path="kernel/samsung/jf" name="lineageos/android_kernel_samsung_jf" remote="github" revision="lineage-18.1" />
-  <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
+  <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-18.1-rebase"/>
 
-  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
+  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-18.1-rebase">
     <copyfile src="build.sh" dest="build.sh" />
     <copyfile src="enablePS.sh" dest="enablePS.sh" />
     <copyfile src="enablePerf.sh" dest="enablePerf.sh" />
