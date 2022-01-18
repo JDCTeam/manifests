@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-12.0.0_r27" />
 
+  <remote  name="jdc"
+         fetch=".."
+         revision="opt-cm-19.0" />
+
   <default revision="refs/heads/lineage-19.0"
            remote="github"
            sync-c="true"
@@ -1050,6 +1054,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/optlos.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
