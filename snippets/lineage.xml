@@ -72,7 +72,7 @@
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />-->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />-->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />-->
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />-->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />-->
     <!--<linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />-->
@@ -92,7 +92,7 @@
     <!--<linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />-->
     <!--<linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />-->
   </project>
-  <!--<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-19.0-caf" />-->
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
   <!--<project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8916" />-->
   <!--<project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-msm8916" />-->
   <!--<project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8916" />-->
