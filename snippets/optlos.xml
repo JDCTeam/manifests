@@ -10,6 +10,4 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   
-  <!-- get official tree for bring up-->
-   <project path="device/samsung/jf-common" name="LineageOS/android_device_samsung_jf-common" remote="github" revision="lineage-18.1" />
 </manifest>
