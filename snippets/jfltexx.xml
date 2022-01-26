@@ -14,13 +14,11 @@
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0-rebase" />
   
   <!-- official lineage picked and edited for bringup-->
-  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_art" path="art" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   
-  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="lineage-mainline" />
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="lineage-mainline"  />
   <project path="art" name="JDCTeam/android_art" remote="lineage-mainline" />
   <project path="bionic" name="JDCTeam/android_bionic" remote="lineage-mainline"  />
