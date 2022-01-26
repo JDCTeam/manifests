@@ -15,7 +15,7 @@
   
   <!-- official lineage picked and edited for bringup-->
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
-  <remove-project name="LineageOS/android_art" path="art" />
+  <!-- at is at default.xml-->
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   
