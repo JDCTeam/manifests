@@ -4,10 +4,10 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.0" />
   
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
-  <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0" />
+  <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0-rebase" />
   <project path="device/samsung/jfltexx" name="JDCTeam/android_device_samsung_jfltexx" remote="github" revision="lineage-19.0" />
   
   <!--private repo-->
-  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0" />
+  <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0-rebase" />
   
 </manifest>
