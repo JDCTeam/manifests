@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.0" />  
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.0" />
-  
+
+  <!-- jdc repo-->
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
-  <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0-rebase" />
-  <project path="device/samsung/jfltexx" name="JDCTeam/android_device_samsung_jfltexx" remote="github" revision="lineage-19.0" />
+
+  <!-- pure lineage-->
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="lineage-mainline" />  
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="lineage-mainline" />
   
-  <!--private repo-->
+  <!-- jf bringup-->
+  <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0-rebase" />
+  <project path="device/samsung/jfltexx" name="JDCTeam/android_device_samsung_jfltexx" remote="lineage-mainline" />
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0-rebase" />
   
-  <!-- forks-->
+  <!-- official lineage picked and edited for bringup-->
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_art" path="art" />
+  <remove-project name="LineageOS/android_bionic" path="bionic" />
   
-  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="lineage-19.0" />
-  <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="lineage-19.0" />
+  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="lineage-mainline" />
+  <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="lineage-mainline"  />
+  <project path="art" name="JDCTeam/android_art" remote="lineage-mainline" />
+  <project path="bionic" name="JDCTeam/android_bionic" remote="lineage-mainline"  />
+
+  <!-- lineage's manifest tracks AOSP ones-->
+  <project path="system/netd" name="JDCTeam/android_system_netd" remote="lineage-mainline"   />
+  <project path="system/bpf" name="JDCTeam/android_system_bpf" remote="lineage-mainline"  />
+
 </manifest>
