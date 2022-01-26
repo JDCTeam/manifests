@@ -20,7 +20,6 @@
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="lineage-mainline"  />
-  <project path="art" name="JDCTeam/android_art" remote="lineage-mainline" />
   <project path="bionic" name="JDCTeam/android_bionic" remote="lineage-mainline"  />
   <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="lineage-mainline" />
 
