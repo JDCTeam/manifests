@@ -20,7 +20,7 @@
   <remote  name="lineage-mainline"
            fetch=".."
            remote="github"
-           revision="lineage-19.0"
+           revision="lineage-19.0" />
   
   <default revision="refs/heads/lineage-19.0"
            remote="github"
