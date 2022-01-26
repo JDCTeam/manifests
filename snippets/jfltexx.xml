@@ -13,6 +13,9 @@
   <project path="device/samsung/jfltexx" name="JDCTeam/android_device_samsung_jfltexx" remote="lineage-mainline" />
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0-rebase" />
   
+  <!-- 18.1 repos-->
+  <project path="device/qcom/sepolicy-legacy" name="JDCTeam/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-18.1-legacy" />
+  
   <!-- official lineage picked and edited for bringup-->
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <!-- at is at default.xml-->
