@@ -10,4 +10,10 @@
   <!--private repo-->
   <project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common-official" remote="private" revision="lineage-19.0-rebase" />
   
+  <!-- forks-->
+  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
+  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+  
+  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="lineage-19.0" />
+  <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="github" revision="lineage-19.0" />
 </manifest>
