@@ -6,7 +6,7 @@
 
   <!-- pure lineage-->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="lineage-mainline" />  
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="lineage-mainline" />
+  <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="lineage-19.0-rebase" />
   
   <!-- jf bringup-->
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0-rebase" />
