@@ -6,7 +6,7 @@
 
   <!-- pure lineage-->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="lineage-mainline" />  
-  <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="github" revision="lineage-19.0-rebase" />
+  <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="lineage-mainline" />
   
   <!-- jf bringup-->
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="lineage-19.0-rebase" />
@@ -24,7 +24,7 @@
   
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="lineage-mainline"  />
   <project path="bionic" name="JDCTeam/android_bionic" remote="lineage-mainline"  />
-  <project path="system/core" name="JDCTeam/android_system_core-new" remote="github" revision="lineage-19.0-rebase"  />
+  <project path="system/core" name="JDCTeam/android_system_core-new" remote="lineage-mainline" />
   <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="lineage-mainline" />
 
   <!-- lineage's manifest tracks AOSP ones-->
