@@ -14,6 +14,7 @@
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
 	</project>
 
+	<remove-project name="LineageOS/android" path="android" />
 	<remove-project name="LineageOS/android_build" path="build/make" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
