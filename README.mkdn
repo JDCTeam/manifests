@@ -8,11 +8,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using our trees, use a command like this:
 
-    repo init -u https://github.com/JDCTeam/manifests.git -b lineage-19.0
+    repo init -u https://github.com/JDCTeam/manifests.git -b opt-cm-19.0
 
 or
 
-    repo init --depth=1 -u https://github.com/JDCTeam/manifests.git -b lineage-19.0
+    repo init --depth=1 -u https://github.com/JDCTeam/manifests.git -b opt-cm-19.0
 
 Then to sync up:
 
