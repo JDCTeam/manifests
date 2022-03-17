@@ -15,19 +15,19 @@
 
   <remote  name="jdc"
            fetch=".."
-           revision="opt-cm-19.0" />
+           revision="opt-cm-19.1" />
 
   <remote  name="lineage-mainline"
            fetch=".."
            remote="github"
            revision="lineage-19.0" />
   
-  <default revision="refs/heads/lineage-19.0"
+  <default revision="refs/heads/lineage-19.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -66,7 +66,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" remote="aosp" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
+  <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
@@ -87,7 +87,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" remote="aosp" />
-  <project path="external/adhd" name="platform/external/adhd" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" remote="aosp" />
@@ -458,6 +457,7 @@
   <project path="external/rust/crates/futures-task" name="platform/external/rust/crates/futures-task" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/futures-util" name="platform/external/rust/crates/futures-util" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/gdbstub" name="platform/external/rust/crates/gdbstub" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/gdbstub_arch" name="platform/external/rust/crates/gdbstub_arch" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/glob" name="platform/external/rust/crates/glob" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/grpcio" name="platform/external/rust/crates/grpcio" groups="pdk" remote="aosp" />
@@ -610,6 +610,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" remote="aosp" />
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp" />
+  <project path="external/TestParameterInjector" name="platform/external/TestParameterInjector" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/tflite-support" name="platform/external/tflite-support" groups="pdk" remote="aosp" />
   <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" groups="pdk" clone-depth="2" remote="aosp" />
@@ -630,7 +631,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
-  <project path="external/vm_tools/p9" name="platform/external/vm_tools/p9" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/volley" name="platform/external/volley" groups="pdk" remote="aosp" />
   <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="pdk" remote="aosp" />
@@ -775,7 +775,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
@@ -811,7 +810,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" remote="aosp" />
+  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OnDeviceAppPrediction" name="platform/packages/apps/OnDeviceAppPrediction" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -944,6 +943,7 @@
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
