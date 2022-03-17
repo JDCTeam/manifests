@@ -12,7 +12,7 @@
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc" />
   
-  <project path="device/qcom/sepolicy-legacy" name="JDCTeam/android_device_qcom_sepolicy" revision="jdc" />
+  <project path="device/qcom/sepolicy-legacy" name="JDCTeam/android_device_qcom_sepolicy" remote="jdc" />
   
   <!-- official lineage picked and edited for bringup-->
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
