@@ -20,7 +20,7 @@
   <remote  name="lineage-mainline"
            fetch=".."
            remote="github"
-           revision="lineage-19.0" />
+           revision="lineage-19.1" />
   
   <default revision="refs/heads/lineage-19.1"
            remote="github"
@@ -52,7 +52,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="JDCTeam/android_art" remote="lineage-mainline"  />
+  <project path="art" name="JDCTeam/android_art" remote="jdc"  />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
