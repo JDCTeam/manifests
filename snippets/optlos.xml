@@ -3,6 +3,7 @@
 
   <!-- jdc repo-->
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
+  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc" />
 
   <!-- pure lineage-->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="lineage-mainline" />  
