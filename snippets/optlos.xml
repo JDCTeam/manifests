@@ -14,6 +14,7 @@
   <project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   <project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc" />
   <project path="device/qcom/sepolicy-legacy" name="JDCTeam/android_device_qcom_sepolicy" remote="jdc" />
+  <project path="external/perfetto" name="JDCTeam/android_external_perfetto" remote="jdc" />
   
   <!-- official lineage picked and edited for bringup-->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="lineage-mainline"  />
