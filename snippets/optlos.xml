@@ -27,11 +27,13 @@
   <remove-project name="LineageOS/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
    
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc"  />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc"  />
   <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc"  />
+  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc"  />
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc"  />
   <project path="bionic" name="JDCTeam/android_bionic" remote="jdc"  />
   <project path="art" name="JDCTeam/android_art" remote="jdc"  />
