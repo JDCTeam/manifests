@@ -29,9 +29,12 @@
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+
    
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc"  />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc"  />
+  <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"  />
   <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc"  />
   <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="jdc"  />
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc"  />
