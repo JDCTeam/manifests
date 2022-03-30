@@ -18,12 +18,15 @@
   <project path="device/qcom/sepolicy-legacy" name="JDCTeam/android_device_qcom_sepolicy" remote="jdc" />
   
   <!-- official lineage picked and edited for bringup-->
-  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <!-- ART is at default.xml-->
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   <remove-project name="LineageOS/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+
   
+  <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc"  />
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc"  />
   <project path="bionic" name="JDCTeam/android_bionic" remote="jdc"  />
   <project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
