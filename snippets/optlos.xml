@@ -17,9 +17,9 @@
   
   <!-- official lineage picked and edited for bringup-->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="lineage-mainline"  />
-  <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" remote="lineage-mainline"  />
+  <!--<project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" remote="lineage-mainline"  />-->
   <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-  <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+  <!--<remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" /> -->
 	
   <remove-project name="LineageOS/android_art" path="art" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
