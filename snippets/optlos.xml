@@ -22,6 +22,7 @@
   <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	
   <remove-project name="LineageOS/android_art" path="art" />
+  <remove-project name="LineageOS/android_build" path="build/make" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   <remove-project name="LineageOS/android_system_core" path="system/core" />
@@ -43,6 +44,16 @@
   <project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
   <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
   <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+	
+  <project path="build/make" name="JDCTeam/android_build" remote="jdc" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
 	
   <!-- lineage's manifest tracks AOSP ones-->
   <project path="system/netd" name="JDCTeam/android_system_netd" remote="jdc"   />
