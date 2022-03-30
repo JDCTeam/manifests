@@ -17,15 +17,20 @@
   
   <!-- official lineage picked and edited for bringup-->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="lineage-mainline"  />
+  <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" remote="lineage-mainline"  />
   <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-  
+  <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
+	
   <remove-project name="LineageOS/android_art" path="art" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   <remove-project name="LineageOS/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
-
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+   
+  <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc"  />
+  <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc"  />
   <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc"  />
   <project path="frameworks/av" name="JDCTeam/android_frameworks_av" remote="jdc"  />
   <project path="bionic" name="JDCTeam/android_bionic" remote="jdc"  />
