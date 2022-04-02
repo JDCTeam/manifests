@@ -22,6 +22,7 @@
   <remove-project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
   <remove-project name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" />
 	
+  <remove-project name="LineageOS/android_packages_modules_adb" path="packages/modules/adb" />	
   <remove-project name="LineageOS/android_art" path="art" />
   <remove-project name="LineageOS/android_build" path="build/make" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
@@ -33,7 +34,7 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
 
-   
+  <project path="packages/modules/adb" name="JDCTeam/android_packages_modules_adb" remote="jdc"  />
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc"  />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc"  />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"  />
