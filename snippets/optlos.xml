@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="manifests" name="JDCTeam/manifests" remote="jdc" />
   <!-- jdc repo-->
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="jdc" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
