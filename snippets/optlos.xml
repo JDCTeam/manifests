@@ -37,11 +37,13 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
 
   <project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc"  />
   <project path="packages/modules/adb" name="JDCTeam/android_packages_modules_adb" remote="jdc"  />
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="jdc"  />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="jdc"  />
+  <project path="packages/apps/Nfc" name="JDCTeam/android_packages_apps_Nfc" remote="jdc"  />
   <project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="jdc"  />
   <project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remote="jdc"  />
   <project path="frameworks/native" name="JDCTeam/android_frameworks_native" remote="jdc"  />
