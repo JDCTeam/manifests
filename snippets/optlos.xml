@@ -37,6 +37,7 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_hardware_ril" path="hardware/ril" />
 
   <project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc"  />
   <project path="packages/modules/adb" name="JDCTeam/android_packages_modules_adb" remote="jdc"  />
@@ -53,6 +54,7 @@
   <project path="system/core" name="JDCTeam/android_system_core-new" remote="jdc" />
   <project path="vendor/lineage" name="JDCTeam/android_vendor_lineage" remote="jdc" />
   <project path="hardware/samsung" name="JDCTeam/android_hardware_samsung" remote="jdc" />
+  <project path="hardware/ril" name="JDCTeam/android_hardware_ril" remote="jdc" />
 	
   <project path="build/make" name="JDCTeam/android_build" remote="jdc" >
     <copyfile src="core/root.mk" dest="Makefile" />
