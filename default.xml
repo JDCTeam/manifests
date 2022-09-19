@@ -13,6 +13,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-13.0.0_r6" />
 
+  <remote  name="lineage-mainline"
+           fetch=".."
+           remote="github"
+           revision="lineage-19.1" />
+  
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
@@ -1119,4 +1124,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/optlos.xml" />
 </manifest>
