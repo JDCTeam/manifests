@@ -18,6 +18,10 @@
            remote="github"
            revision="lineage-19.1" />
   
+  <remote  name="jdc"
+           fetch=".."
+           revision="opt-cm-20.0" />
+  
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
