@@ -10,10 +10,6 @@ To initialize your local repository using our trees, use a command like this:
 
     repo init -u https://github.com/JDCTeam/manifests.git -b opt-cm-19.1 --git-lfs
 
-or
-
-    repo init --depth=1 -u https://github.com/JDCTeam/manifests.git -b opt-cm-19.1
-
 Then to sync up:
 
     repo sync
