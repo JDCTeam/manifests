@@ -37,6 +37,7 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <remove-project name="LineageOS/android_hardware_ril" path="hardware/ril" />
+  <remove-project name="LineageOS/android_system_netd" path="system/netd" />
 
   <project path="lineage-sdk" name="JDCTeam/android_lineage-sdk" remote="jdc"  />
   <project path="packages/modules/adb" name="JDCTeam/android_packages_modules_adb" remote="jdc"  />
